@@ -1,0 +1,304 @@
+// JabsAndTabs data model.
+// The site builds without a database (static fallback in src/data). When
+// DATABASE_URL is set, src/lib/repo.ts reads from here instead.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Route {
+  injection
+  tablet
+}
+
+enum Frequency {
+  weekly
+  daily
+}
+
+enum UkStatus {
+  licensed
+  licensed_diabetes_only
+  not_yet_licensed
+  verify
+}
+
+enum DoseRole {
+  starting
+  titration
+  maintenance
+  maximum
+}
+
+enum Seriousness {
+  common
+  less_common
+  serious
+}
+
+enum ProviderType {
+  online_pharmacy
+  online_doctor
+  high_street_pharmacy
+  telehealth_programme
+}
+
+enum ReviewStatus {
+  draft
+  pending_clinical_review
+  clinically_reviewed
+}
+
+enum AuthorRole {
+  writer
+  editor
+  medical_reviewer
+}
+
+enum RegulatoryBody {
+  GPhC
+  GMC
+  NMC
+  HCPC
+}
+
+model Medication {
+  id                 String               @id @default(cuid())
+  slug               String               @unique
+  name               String
+  genericName        String
+  drugClass          String
+  manufacturer       String
+  route              Route
+  frequency          Frequency
+  device             String?
+  dosesVerified      Boolean              @default(false)
+  ukStatus           UkStatus             @default(verify)
+  mhraApproval       String?
+  niceGuidance       String?
+  summary            String
+  hub                String
+  titrationStepWeeks Int?
+  doses              Dose[]
+  sideEffects        MedicationSideEffect[]
+  providers          ProviderMedication[]
+  prices             PricePoint[]
+  createdAt          DateTime             @default(now())
+  updatedAt          DateTime             @updatedAt
+}
+
+model Dose {
+  id           String       @id @default(cuid())
+  medication   Medication   @relation(fields: [medicationId], references: [id], onDelete: Cascade)
+  medicationId String
+  mg           Float
+  slug         String
+  role         DoseRole
+  sortOrder    Int          @default(0)
+  prices       PricePoint[]
+
+  @@unique([medicationId, slug])
+}
+
+model SideEffect {
+  id             String                 @id @default(cuid())
+  slug           String                 @unique
+  name           String
+  injectableOnly Boolean                @default(false)
+  seriousness    Seriousness
+  medications    MedicationSideEffect[]
+}
+
+/// Which side effects are listed as common for a medication.
+model MedicationSideEffect {
+  medication   Medication @relation(fields: [medicationId], references: [id], onDelete: Cascade)
+  medicationId String
+  sideEffect   SideEffect @relation(fields: [sideEffectId], references: [id], onDelete: Cascade)
+  sideEffectId String
+  common       Boolean    @default(true)
+
+  @@id([medicationId, sideEffectId])
+}
+
+model Provider {
+  id                 String               @id @default(cuid())
+  slug               String               @unique
+  name               String
+  type               ProviderType
+  website            String
+  /// Null = not yet verified against the GPhC register.
+  gphcNumber         String?
+  cqcRegistered      Boolean?
+  trustpilotScore    Float?
+  trustpilotReviews  Int?
+  trustpilotChecked  DateTime?
+  delivery           String?
+  support            String[]
+  maintenancePolicy  String?
+  consultationFee    Decimal?             @db.Decimal(10, 2)
+  pros               String[]
+  cons               String[]
+  verified           Boolean              @default(false)
+  lastVerifiedAt     DateTime?
+  medications        ProviderMedication[]
+  prices             PricePoint[]
+  offers             Offer[]
+  affiliateLinks     AffiliateLink[]
+  createdAt          DateTime             @default(now())
+  updatedAt          DateTime             @updatedAt
+}
+
+model ProviderMedication {
+  provider     Provider   @relation(fields: [providerId], references: [id], onDelete: Cascade)
+  providerId   String
+  medication   Medication @relation(fields: [medicationId], references: [id], onDelete: Cascade)
+  medicationId String
+  available    Boolean    @default(true)
+  checkedAt    DateTime?
+
+  @@id([providerId, medicationId])
+}
+
+/// Every price observation is kept (history). The latest per
+/// provider/medication/dose is the "current" price.
+model PricePoint {
+  id              String     @id @default(cuid())
+  provider        Provider   @relation(fields: [providerId], references: [id], onDelete: Cascade)
+  providerId      String
+  medication      Medication @relation(fields: [medicationId], references: [id], onDelete: Cascade)
+  medicationId    String
+  dose            Dose?      @relation(fields: [doseId], references: [id], onDelete: SetNull)
+  doseId          String?
+  doseSlug        String
+  retailPrice     Decimal?   @db.Decimal(10, 2)
+  discountPrice   Decimal?   @db.Decimal(10, 2)
+  deliveryCharge  Decimal?   @db.Decimal(10, 2)
+  consultationFee Decimal?   @db.Decimal(10, 2)
+  checkedAt       DateTime
+  sourceUrl       String
+  verifiedBy      String
+  notes           String?
+  createdAt       DateTime   @default(now())
+
+  @@index([providerId, medicationId, doseSlug, checkedAt])
+}
+
+model Offer {
+  id           String    @id @default(cuid())
+  provider     Provider  @relation(fields: [providerId], references: [id], onDelete: Cascade)
+  providerId   String
+  title        String
+  description  String?
+  code         String?
+  terms        String?
+  sourceUrl    String
+  validFrom    DateTime?
+  validUntil   DateTime?
+  verifiedAt   DateTime?
+  verifiedBy   String?
+  active       Boolean   @default(false)
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+}
+
+model AffiliateLink {
+  id          String       @id @default(cuid())
+  provider    Provider     @relation(fields: [providerId], references: [id], onDelete: Cascade)
+  providerId  String
+  network     String
+  trackingUrl String
+  active      Boolean      @default(false)
+  clicks      ClickEvent[]
+  createdAt   DateTime     @default(now())
+  updatedAt   DateTime     @updatedAt
+}
+
+/// Anonymous click log. No IP, user agent, cookie ID or any personal data.
+model ClickEvent {
+  id        String        @id @default(cuid())
+  link      AffiliateLink @relation(fields: [linkId], references: [id], onDelete: Cascade)
+  linkId    String
+  page      String?
+  createdAt DateTime      @default(now())
+
+  @@index([linkId, createdAt])
+}
+
+model Author {
+  id         String                   @id @default(cuid())
+  slug       String                   @unique
+  name       String
+  role       AuthorRole
+  bio        String
+  image      String?
+  sameAs     String[]
+  credential ReviewerCredential?
+  authored   ArticleIndex[]           @relation("ArticleAuthor")
+  reviewed   ArticleIndex[]           @relation("ArticleReviewer")
+  createdAt  DateTime                 @default(now())
+  updatedAt  DateTime                 @updatedAt
+}
+
+/// Professional registration for medical reviewers. Must be checked
+/// against the public register before an article can be marked reviewed.
+model ReviewerCredential {
+  id                 String         @id @default(cuid())
+  author             Author         @relation(fields: [authorId], references: [id], onDelete: Cascade)
+  authorId           String         @unique
+  qualifications     String
+  body               RegulatoryBody
+  registrationNumber String
+  registerUrl        String?
+  verifiedAt         DateTime?
+  verifiedBy         String?
+}
+
+/// Index of MDX articles (the body lives in content/articles).
+model ArticleIndex {
+  id          String          @id @default(cuid())
+  slug        String          @unique
+  title       String
+  cluster     String
+  hub         String
+  status      ReviewStatus    @default(draft)
+  author      Author?         @relation("ArticleAuthor", fields: [authorId], references: [id])
+  authorId    String?
+  reviewer    Author?         @relation("ArticleReviewer", fields: [reviewerId], references: [id])
+  reviewerId  String?
+  reviewedAt  DateTime?
+  publishedAt DateTime?
+  updatedAt   DateTime        @updatedAt
+  corrections Correction[]
+  audits      EditorialAudit[]
+}
+
+model Correction {
+  id          String        @id @default(cuid())
+  article     ArticleIndex? @relation(fields: [articleId], references: [id], onDelete: SetNull)
+  articleId   String?
+  pagePath    String
+  summary     String
+  details     String?
+  reportedAt  DateTime      @default(now())
+  correctedAt DateTime?
+  correctedBy String?
+}
+
+model EditorialAudit {
+  id        String        @id @default(cuid())
+  article   ArticleIndex? @relation(fields: [articleId], references: [id], onDelete: SetNull)
+  articleId String?
+  entity    String
+  entityId  String
+  action    String
+  actor     String
+  notes     String?
+  createdAt DateTime      @default(now())
+
+  @@index([entity, entityId])
+}

@@ -1,0 +1,655 @@
+url,pattern,template,primary_keyword,data_dependencies,flag_gate,index_policy
+/mounjaro,medication-hub,MedicationHub,mounjaro uk,medications,none,index
+/wegovy,medication-hub,MedicationHub,wegovy uk,medications,none,index
+/saxenda,medication-hub,MedicationHub,saxenda uk,medications,none,index
+/oral-semaglutide,medication-hub,MedicationHub,wegovy tablets uk,medications,none,noindex-until-verified
+/foundayo,medication-hub,MedicationHub,foundayo uk,medications,none,noindex-until-verified
+/weight-loss-injections,class-hub,ClassHub,weight loss injections uk,medications(route=injection),none,index
+/oral-glp1,class-hub,ClassHub,oral glp1,medications(route=tablet),none,index
+/mounjaro-prices,medication-topic,MedicationTopic,mounjaro price uk,"medications;pricePoints(aggregate, gated);providers",none,index
+/mounjaro-side-effects,medication-topic,MedicationTopic,mounjaro side effects,medications;articles(pillar mount if mapped),none,index
+/mounjaro-dosage,medication-topic,MedicationTopic,mounjaro dosage,medications.doses;SmPC,none,index
+/mounjaro-maintenance,medication-topic,MedicationTopic,mounjaro maintenance,medications;articles(pillar mount if mapped),none,index
+/mounjaro-eligibility,medication-topic,MedicationTopic,mounjaro eligibility,medications;articles(pillar mount if mapped),none,index
+/mounjaro-results,medication-topic,MedicationTopic,mounjaro results,medications;articles(pillar mount if mapped),none,index
+/mounjaro-how-it-works,medication-topic,MedicationTopic,how does mounjaro work,medications;articles(pillar mount if mapped),none,index
+/mounjaro-faqs,medication-topic,MedicationTopic,mounjaro faqs,medications;articles(pillar mount if mapped),none,index
+/wegovy-prices,medication-topic,MedicationTopic,wegovy price uk,"medications;pricePoints(aggregate, gated);providers",none,index
+/wegovy-side-effects,medication-topic,MedicationTopic,wegovy side effects,medications;articles(pillar mount if mapped),none,index
+/wegovy-dosage,medication-topic,MedicationTopic,wegovy dosage,medications.doses;SmPC,none,index
+/wegovy-maintenance,medication-topic,MedicationTopic,wegovy maintenance,medications;articles(pillar mount if mapped),none,index
+/wegovy-eligibility,medication-topic,MedicationTopic,wegovy eligibility,medications;articles(pillar mount if mapped),none,index
+/wegovy-results,medication-topic,MedicationTopic,wegovy results,medications;articles(pillar mount if mapped),none,index
+/wegovy-how-it-works,medication-topic,MedicationTopic,how does wegovy work,medications;articles(pillar mount if mapped),none,index
+/wegovy-faqs,medication-topic,MedicationTopic,wegovy faqs,medications;articles(pillar mount if mapped),none,index
+/saxenda-prices,medication-topic,MedicationTopic,saxenda price uk,"medications;pricePoints(aggregate, gated);providers",none,index
+/saxenda-side-effects,medication-topic,MedicationTopic,saxenda side effects,medications;articles(pillar mount if mapped),none,index
+/saxenda-dosage,medication-topic,MedicationTopic,saxenda dosage,medications.doses;SmPC,none,index
+/saxenda-maintenance,medication-topic,MedicationTopic,saxenda maintenance,medications;articles(pillar mount if mapped),none,index
+/saxenda-eligibility,medication-topic,MedicationTopic,saxenda eligibility,medications;articles(pillar mount if mapped),none,index
+/saxenda-results,medication-topic,MedicationTopic,saxenda results,medications;articles(pillar mount if mapped),none,index
+/saxenda-how-it-works,medication-topic,MedicationTopic,how does saxenda work,medications;articles(pillar mount if mapped),none,index
+/saxenda-faqs,medication-topic,MedicationTopic,saxenda faqs,medications;articles(pillar mount if mapped),none,index
+/oral-semaglutide-prices,medication-topic,MedicationTopic,wegovy tablets price uk,"medications;pricePoints(aggregate, gated);providers",none,noindex-until-verified
+/oral-semaglutide-side-effects,medication-topic,MedicationTopic,wegovy tablets side effects,medications;articles(pillar mount if mapped),none,noindex-until-verified
+/oral-semaglutide-dosage,medication-topic,MedicationTopic,wegovy tablets dosage,medications.doses;SmPC,none,noindex-until-verified
+/oral-semaglutide-maintenance,medication-topic,MedicationTopic,wegovy tablets maintenance,medications;articles(pillar mount if mapped),none,noindex-until-verified
+/oral-semaglutide-eligibility,medication-topic,MedicationTopic,wegovy tablets eligibility,medications;articles(pillar mount if mapped),none,noindex-until-verified
+/oral-semaglutide-results,medication-topic,MedicationTopic,wegovy tablets results,medications;articles(pillar mount if mapped),none,noindex-until-verified
+/oral-semaglutide-how-it-works,medication-topic,MedicationTopic,how does wegovy tablets work,medications;articles(pillar mount if mapped),none,noindex-until-verified
+/oral-semaglutide-faqs,medication-topic,MedicationTopic,wegovy tablets faqs,medications;articles(pillar mount if mapped),none,noindex-until-verified
+/foundayo-prices,medication-topic,MedicationTopic,foundayo price uk,"medications;pricePoints(aggregate, gated);providers",none,noindex-until-verified
+/foundayo-side-effects,medication-topic,MedicationTopic,foundayo side effects,medications;articles(pillar mount if mapped),none,noindex-until-verified
+/foundayo-dosage,medication-topic,MedicationTopic,foundayo dosage,medications.doses;SmPC,none,noindex-until-verified
+/foundayo-maintenance,medication-topic,MedicationTopic,foundayo maintenance,medications;articles(pillar mount if mapped),none,noindex-until-verified
+/foundayo-eligibility,medication-topic,MedicationTopic,foundayo eligibility,medications;articles(pillar mount if mapped),none,noindex-until-verified
+/foundayo-results,medication-topic,MedicationTopic,foundayo results,medications;articles(pillar mount if mapped),none,noindex-until-verified
+/foundayo-how-it-works,medication-topic,MedicationTopic,how does foundayo work,medications;articles(pillar mount if mapped),none,noindex-until-verified
+/foundayo-faqs,medication-topic,MedicationTopic,foundayo faqs,medications;articles(pillar mount if mapped),none,noindex-until-verified
+/mounjaro-2-5mg,medication-dose,DosePage,mounjaro 2.5mg,medications.doses;SmPC,none,index
+/mounjaro-5mg,medication-dose,DosePage,mounjaro 5mg,medications.doses;SmPC,none,index
+/mounjaro-7-5mg,medication-dose,DosePage,mounjaro 7.5mg,medications.doses;SmPC,none,index
+/mounjaro-10mg,medication-dose,DosePage,mounjaro 10mg,medications.doses;SmPC,none,index
+/mounjaro-12-5mg,medication-dose,DosePage,mounjaro 12.5mg,medications.doses;SmPC,none,index
+/mounjaro-15mg,medication-dose,DosePage,mounjaro 15mg,medications.doses;SmPC,none,index
+/wegovy-0-25mg,medication-dose,DosePage,wegovy 0.25mg,medications.doses;SmPC,none,index
+/wegovy-0-5mg,medication-dose,DosePage,wegovy 0.5mg,medications.doses;SmPC,none,index
+/wegovy-1mg,medication-dose,DosePage,wegovy 1mg,medications.doses;SmPC,none,index
+/wegovy-1-7mg,medication-dose,DosePage,wegovy 1.7mg,medications.doses;SmPC,none,index
+/wegovy-2-4mg,medication-dose,DosePage,wegovy 2.4mg,medications.doses;SmPC,none,index
+/saxenda-0-6mg,medication-dose,DosePage,saxenda 0.6mg,medications.doses;SmPC,none,index
+/saxenda-1-2mg,medication-dose,DosePage,saxenda 1.2mg,medications.doses;SmPC,none,index
+/saxenda-1-8mg,medication-dose,DosePage,saxenda 1.8mg,medications.doses;SmPC,none,index
+/saxenda-2-4mg,medication-dose,DosePage,saxenda 2.4mg,medications.doses;SmPC,none,index
+/saxenda-3mg,medication-dose,DosePage,saxenda 3mg,medications.doses;SmPC,none,index
+/mounjaro-side-effects/nausea,medication-side-effect,SideEffectPage,mounjaro nausea,medications;sideEffects;SmPC 4.8 frequency,none,index
+/mounjaro-side-effects/vomiting,medication-side-effect,SideEffectPage,mounjaro vomiting,medications;sideEffects;SmPC 4.8 frequency,none,index
+/mounjaro-side-effects/diarrhoea,medication-side-effect,SideEffectPage,mounjaro diarrhoea,medications;sideEffects;SmPC 4.8 frequency,none,index
+/mounjaro-side-effects/constipation,medication-side-effect,SideEffectPage,mounjaro constipation,medications;sideEffects;SmPC 4.8 frequency,none,index
+/mounjaro-side-effects/indigestion,medication-side-effect,SideEffectPage,mounjaro indigestion and reflux,medications;sideEffects;SmPC 4.8 frequency,none,index
+/mounjaro-side-effects/burping,medication-side-effect,SideEffectPage,mounjaro burping,medications;sideEffects;SmPC 4.8 frequency,none,noindex-until-verified
+/mounjaro-side-effects/fatigue,medication-side-effect,SideEffectPage,mounjaro tiredness,medications;sideEffects;SmPC 4.8 frequency,none,noindex-until-verified
+/mounjaro-side-effects/headache,medication-side-effect,SideEffectPage,mounjaro headache,medications;sideEffects;SmPC 4.8 frequency,none,noindex-until-verified
+/mounjaro-side-effects/dizziness,medication-side-effect,SideEffectPage,mounjaro dizziness,medications;sideEffects;SmPC 4.8 frequency,none,noindex-until-verified
+/mounjaro-side-effects/hair-loss,medication-side-effect,SideEffectPage,mounjaro hair loss,medications;sideEffects;SmPC 4.8 frequency,none,noindex-until-verified
+/mounjaro-side-effects/injection-site-reactions,medication-side-effect,SideEffectPage,mounjaro injection site reactions,medications;sideEffects;SmPC 4.8 frequency,none,index
+/mounjaro-side-effects/gallbladder-problems,medication-side-effect,SideEffectPage,mounjaro gallbladder problems,medications;sideEffects;SmPC 4.8 frequency,none,index
+/mounjaro-side-effects/pancreatitis,medication-side-effect,SideEffectPage,mounjaro pancreatitis,medications;sideEffects;SmPC 4.8 frequency,none,index
+/mounjaro-side-effects/low-blood-sugar,medication-side-effect,SideEffectPage,mounjaro low blood sugar,medications;sideEffects;SmPC 4.8 frequency,none,noindex-until-verified
+/wegovy-side-effects/nausea,medication-side-effect,SideEffectPage,wegovy nausea,medications;sideEffects;SmPC 4.8 frequency,none,index
+/wegovy-side-effects/vomiting,medication-side-effect,SideEffectPage,wegovy vomiting,medications;sideEffects;SmPC 4.8 frequency,none,index
+/wegovy-side-effects/diarrhoea,medication-side-effect,SideEffectPage,wegovy diarrhoea,medications;sideEffects;SmPC 4.8 frequency,none,index
+/wegovy-side-effects/constipation,medication-side-effect,SideEffectPage,wegovy constipation,medications;sideEffects;SmPC 4.8 frequency,none,index
+/wegovy-side-effects/indigestion,medication-side-effect,SideEffectPage,wegovy indigestion and reflux,medications;sideEffects;SmPC 4.8 frequency,none,index
+/wegovy-side-effects/burping,medication-side-effect,SideEffectPage,wegovy burping,medications;sideEffects;SmPC 4.8 frequency,none,noindex-until-verified
+/wegovy-side-effects/fatigue,medication-side-effect,SideEffectPage,wegovy tiredness,medications;sideEffects;SmPC 4.8 frequency,none,noindex-until-verified
+/wegovy-side-effects/headache,medication-side-effect,SideEffectPage,wegovy headache,medications;sideEffects;SmPC 4.8 frequency,none,noindex-until-verified
+/wegovy-side-effects/dizziness,medication-side-effect,SideEffectPage,wegovy dizziness,medications;sideEffects;SmPC 4.8 frequency,none,noindex-until-verified
+/wegovy-side-effects/hair-loss,medication-side-effect,SideEffectPage,wegovy hair loss,medications;sideEffects;SmPC 4.8 frequency,none,noindex-until-verified
+/wegovy-side-effects/injection-site-reactions,medication-side-effect,SideEffectPage,wegovy injection site reactions,medications;sideEffects;SmPC 4.8 frequency,none,index
+/wegovy-side-effects/gallbladder-problems,medication-side-effect,SideEffectPage,wegovy gallbladder problems,medications;sideEffects;SmPC 4.8 frequency,none,index
+/wegovy-side-effects/pancreatitis,medication-side-effect,SideEffectPage,wegovy pancreatitis,medications;sideEffects;SmPC 4.8 frequency,none,index
+/wegovy-side-effects/low-blood-sugar,medication-side-effect,SideEffectPage,wegovy low blood sugar,medications;sideEffects;SmPC 4.8 frequency,none,noindex-until-verified
+/saxenda-side-effects/nausea,medication-side-effect,SideEffectPage,saxenda nausea,medications;sideEffects;SmPC 4.8 frequency,none,index
+/saxenda-side-effects/vomiting,medication-side-effect,SideEffectPage,saxenda vomiting,medications;sideEffects;SmPC 4.8 frequency,none,index
+/saxenda-side-effects/diarrhoea,medication-side-effect,SideEffectPage,saxenda diarrhoea,medications;sideEffects;SmPC 4.8 frequency,none,index
+/saxenda-side-effects/constipation,medication-side-effect,SideEffectPage,saxenda constipation,medications;sideEffects;SmPC 4.8 frequency,none,index
+/saxenda-side-effects/indigestion,medication-side-effect,SideEffectPage,saxenda indigestion and reflux,medications;sideEffects;SmPC 4.8 frequency,none,noindex-until-verified
+/saxenda-side-effects/burping,medication-side-effect,SideEffectPage,saxenda burping,medications;sideEffects;SmPC 4.8 frequency,none,noindex-until-verified
+/saxenda-side-effects/fatigue,medication-side-effect,SideEffectPage,saxenda tiredness,medications;sideEffects;SmPC 4.8 frequency,none,noindex-until-verified
+/saxenda-side-effects/headache,medication-side-effect,SideEffectPage,saxenda headache,medications;sideEffects;SmPC 4.8 frequency,none,index
+/saxenda-side-effects/dizziness,medication-side-effect,SideEffectPage,saxenda dizziness,medications;sideEffects;SmPC 4.8 frequency,none,noindex-until-verified
+/saxenda-side-effects/hair-loss,medication-side-effect,SideEffectPage,saxenda hair loss,medications;sideEffects;SmPC 4.8 frequency,none,noindex-until-verified
+/saxenda-side-effects/injection-site-reactions,medication-side-effect,SideEffectPage,saxenda injection site reactions,medications;sideEffects;SmPC 4.8 frequency,none,index
+/saxenda-side-effects/gallbladder-problems,medication-side-effect,SideEffectPage,saxenda gallbladder problems,medications;sideEffects;SmPC 4.8 frequency,none,index
+/saxenda-side-effects/pancreatitis,medication-side-effect,SideEffectPage,saxenda pancreatitis,medications;sideEffects;SmPC 4.8 frequency,none,index
+/saxenda-side-effects/low-blood-sugar,medication-side-effect,SideEffectPage,saxenda low blood sugar,medications;sideEffects;SmPC 4.8 frequency,none,noindex-until-verified
+/oral-semaglutide-side-effects/nausea,medication-side-effect,SideEffectPage,wegovy tablets nausea,medications;sideEffects;SmPC 4.8 frequency,none,noindex-until-verified
+/oral-semaglutide-side-effects/vomiting,medication-side-effect,SideEffectPage,wegovy tablets vomiting,medications;sideEffects;SmPC 4.8 frequency,none,noindex-until-verified
+/oral-semaglutide-side-effects/diarrhoea,medication-side-effect,SideEffectPage,wegovy tablets diarrhoea,medications;sideEffects;SmPC 4.8 frequency,none,noindex-until-verified
+/oral-semaglutide-side-effects/constipation,medication-side-effect,SideEffectPage,wegovy tablets constipation,medications;sideEffects;SmPC 4.8 frequency,none,noindex-until-verified
+/oral-semaglutide-side-effects/indigestion,medication-side-effect,SideEffectPage,wegovy tablets indigestion and reflux,medications;sideEffects;SmPC 4.8 frequency,none,noindex-until-verified
+/oral-semaglutide-side-effects/burping,medication-side-effect,SideEffectPage,wegovy tablets burping,medications;sideEffects;SmPC 4.8 frequency,none,noindex-until-verified
+/oral-semaglutide-side-effects/fatigue,medication-side-effect,SideEffectPage,wegovy tablets tiredness,medications;sideEffects;SmPC 4.8 frequency,none,noindex-until-verified
+/oral-semaglutide-side-effects/headache,medication-side-effect,SideEffectPage,wegovy tablets headache,medications;sideEffects;SmPC 4.8 frequency,none,noindex-until-verified
+/oral-semaglutide-side-effects/dizziness,medication-side-effect,SideEffectPage,wegovy tablets dizziness,medications;sideEffects;SmPC 4.8 frequency,none,noindex-until-verified
+/oral-semaglutide-side-effects/hair-loss,medication-side-effect,SideEffectPage,wegovy tablets hair loss,medications;sideEffects;SmPC 4.8 frequency,none,noindex-until-verified
+/oral-semaglutide-side-effects/gallbladder-problems,medication-side-effect,SideEffectPage,wegovy tablets gallbladder problems,medications;sideEffects;SmPC 4.8 frequency,none,noindex-until-verified
+/oral-semaglutide-side-effects/pancreatitis,medication-side-effect,SideEffectPage,wegovy tablets pancreatitis,medications;sideEffects;SmPC 4.8 frequency,none,noindex-until-verified
+/oral-semaglutide-side-effects/low-blood-sugar,medication-side-effect,SideEffectPage,wegovy tablets low blood sugar,medications;sideEffects;SmPC 4.8 frequency,none,noindex-until-verified
+/foundayo-side-effects/nausea,medication-side-effect,SideEffectPage,foundayo nausea,medications;sideEffects;SmPC 4.8 frequency,none,noindex-until-verified
+/foundayo-side-effects/vomiting,medication-side-effect,SideEffectPage,foundayo vomiting,medications;sideEffects;SmPC 4.8 frequency,none,noindex-until-verified
+/foundayo-side-effects/diarrhoea,medication-side-effect,SideEffectPage,foundayo diarrhoea,medications;sideEffects;SmPC 4.8 frequency,none,noindex-until-verified
+/foundayo-side-effects/constipation,medication-side-effect,SideEffectPage,foundayo constipation,medications;sideEffects;SmPC 4.8 frequency,none,noindex-until-verified
+/foundayo-side-effects/indigestion,medication-side-effect,SideEffectPage,foundayo indigestion and reflux,medications;sideEffects;SmPC 4.8 frequency,none,noindex-until-verified
+/foundayo-side-effects/burping,medication-side-effect,SideEffectPage,foundayo burping,medications;sideEffects;SmPC 4.8 frequency,none,noindex-until-verified
+/foundayo-side-effects/fatigue,medication-side-effect,SideEffectPage,foundayo tiredness,medications;sideEffects;SmPC 4.8 frequency,none,noindex-until-verified
+/foundayo-side-effects/headache,medication-side-effect,SideEffectPage,foundayo headache,medications;sideEffects;SmPC 4.8 frequency,none,noindex-until-verified
+/foundayo-side-effects/dizziness,medication-side-effect,SideEffectPage,foundayo dizziness,medications;sideEffects;SmPC 4.8 frequency,none,noindex-until-verified
+/foundayo-side-effects/hair-loss,medication-side-effect,SideEffectPage,foundayo hair loss,medications;sideEffects;SmPC 4.8 frequency,none,noindex-until-verified
+/foundayo-side-effects/gallbladder-problems,medication-side-effect,SideEffectPage,foundayo gallbladder problems,medications;sideEffects;SmPC 4.8 frequency,none,noindex-until-verified
+/foundayo-side-effects/pancreatitis,medication-side-effect,SideEffectPage,foundayo pancreatitis,medications;sideEffects;SmPC 4.8 frequency,none,noindex-until-verified
+/foundayo-side-effects/low-blood-sugar,medication-side-effect,SideEffectPage,foundayo low blood sugar,medications;sideEffects;SmPC 4.8 frequency,none,noindex-until-verified
+/mounjaro-vs-wegovy,medication-comparison,MedicationComparison,mounjaro vs wegovy,medications(both);trials;articles(pillar mount if mapped),none,index
+/mounjaro-vs-saxenda,medication-comparison,MedicationComparison,mounjaro vs saxenda,medications(both);trials;articles(pillar mount if mapped),none,index
+/wegovy-vs-saxenda,medication-comparison,MedicationComparison,wegovy vs saxenda,medications(both);trials;articles(pillar mount if mapped),none,index
+/mounjaro-vs-oral-semaglutide,medication-comparison,MedicationComparison,mounjaro vs wegovy tablets,medications(both);trials;articles(pillar mount if mapped),none,noindex-until-verified
+/mounjaro-vs-foundayo,medication-comparison,MedicationComparison,mounjaro vs foundayo,medications(both);trials;articles(pillar mount if mapped),none,noindex-until-verified
+/wegovy-vs-oral-semaglutide,medication-comparison,MedicationComparison,wegovy vs wegovy tablets,medications(both);trials;articles(pillar mount if mapped),none,noindex-until-verified
+/wegovy-vs-foundayo,medication-comparison,MedicationComparison,wegovy vs foundayo,medications(both);trials;articles(pillar mount if mapped),none,noindex-until-verified
+/oral-semaglutide-vs-foundayo,medication-comparison,MedicationComparison,wegovy tablets vs foundayo,medications(both);trials;articles(pillar mount if mapped),none,noindex-until-verified
+/prices,price-engine-index,PriceEngine,weight loss injection prices uk,providers;pricePoints(gated),none,index
+/prices/mounjaro,price-engine-medication,PriceEngine,mounjaro price comparison,providers;providerMedications;pricePoints(gated: drug-price columns only),none,noindex-until-verified
+/prices/wegovy,price-engine-medication,PriceEngine,wegovy price comparison,providers;providerMedications;pricePoints(gated: drug-price columns only),none,noindex-until-verified
+/prices/saxenda,price-engine-medication,PriceEngine,saxenda price comparison,providers;providerMedications;pricePoints(gated: drug-price columns only),none,noindex-until-verified
+/prices/oral-semaglutide,price-engine-medication,PriceEngine,wegovy tablets price comparison,providers;providerMedications;pricePoints(gated: drug-price columns only),none,noindex-until-verified
+/prices/foundayo,price-engine-medication,PriceEngine,foundayo price comparison,providers;providerMedications;pricePoints(gated: drug-price columns only),none,noindex-until-verified
+/providers,provider-index,ProviderIndex,online weight loss providers uk,providers,none,index
+/providers/chemist4u,provider-review,ProviderReview,chemist4u review,"providers(verified=true,lastVerifiedAt);trustpilot;GPhC/CQC register",none,noindex-until-verified
+/providers/mybmi,provider-review,ProviderReview,mybmi review,"providers(verified=true,lastVerifiedAt);trustpilot;GPhC/CQC register",none,noindex-until-verified
+/providers/myweightloss,provider-review,ProviderReview,myweightloss review,"providers(verified=true,lastVerifiedAt);trustpilot;GPhC/CQC register",none,noindex-until-verified
+/providers/superdrug,provider-review,ProviderReview,superdrug online doctor review,"providers(verified=true,lastVerifiedAt);trustpilot;GPhC/CQC register",none,noindex-until-verified
+/providers/boots,provider-review,ProviderReview,boots online doctor review,"providers(verified=true,lastVerifiedAt);trustpilot;GPhC/CQC register",none,noindex-until-verified
+/providers/asda,provider-review,ProviderReview,asda online doctor review,"providers(verified=true,lastVerifiedAt);trustpilot;GPhC/CQC register",none,noindex-until-verified
+/providers/lloyds,provider-review,ProviderReview,lloydspharmacy online doctor review,"providers(verified=true,lastVerifiedAt);trustpilot;GPhC/CQC register",none,noindex-until-verified
+/providers/well,provider-review,ProviderReview,well pharmacy online doctor review,"providers(verified=true,lastVerifiedAt);trustpilot;GPhC/CQC register",none,noindex-until-verified
+/providers/zava,provider-review,ProviderReview,zava review,"providers(verified=true,lastVerifiedAt);trustpilot;GPhC/CQC register",none,noindex-until-verified
+/providers/numan,provider-review,ProviderReview,numan review,"providers(verified=true,lastVerifiedAt);trustpilot;GPhC/CQC register",none,noindex-until-verified
+/providers/manual,provider-review,ProviderReview,manual review,"providers(verified=true,lastVerifiedAt);trustpilot;GPhC/CQC register",none,noindex-until-verified
+/providers/juniper,provider-review,ProviderReview,juniper review,"providers(verified=true,lastVerifiedAt);trustpilot;GPhC/CQC register",none,noindex-until-verified
+/providers/voy,provider-review,ProviderReview,voy review,"providers(verified=true,lastVerifiedAt);trustpilot;GPhC/CQC register",none,noindex-until-verified
+/providers/simple-online-pharmacy,provider-review,ProviderReview,simple online pharmacy review,"providers(verified=true,lastVerifiedAt);trustpilot;GPhC/CQC register",none,noindex-until-verified
+/providers/pharmacy2u,provider-review,ProviderReview,pharmacy2u review,"providers(verified=true,lastVerifiedAt);trustpilot;GPhC/CQC register",none,noindex-until-verified
+/providers/medexpress,provider-review,ProviderReview,medexpress review,"providers(verified=true,lastVerifiedAt);trustpilot;GPhC/CQC register",none,noindex-until-verified
+/providers/oxford-online-pharmacy,provider-review,ProviderReview,oxford online pharmacy review,"providers(verified=true,lastVerifiedAt);trustpilot;GPhC/CQC register",none,noindex-until-verified
+/providers/click-pharmacy,provider-review,ProviderReview,click pharmacy review,"providers(verified=true,lastVerifiedAt);trustpilot;GPhC/CQC register",none,noindex-until-verified
+/providers/phlo,provider-review,ProviderReview,phlo review,"providers(verified=true,lastVerifiedAt);trustpilot;GPhC/CQC register",none,noindex-until-verified
+/providers/uk-meds,provider-review,ProviderReview,uk meds review,"providers(verified=true,lastVerifiedAt);trustpilot;GPhC/CQC register",none,noindex-until-verified
+/providers/chemist4u/mounjaro,provider-medication,ProviderMedication,chemist4u mounjaro,providers;providerMedications(verified),none,noindex-until-verified
+/providers/chemist4u/wegovy,provider-medication,ProviderMedication,chemist4u wegovy,providers;providerMedications(verified),none,noindex-until-verified
+/providers/mybmi/mounjaro,provider-medication,ProviderMedication,mybmi mounjaro,providers;providerMedications(verified),none,noindex-until-verified
+/providers/mybmi/wegovy,provider-medication,ProviderMedication,mybmi wegovy,providers;providerMedications(verified),none,noindex-until-verified
+/providers/myweightloss/mounjaro,provider-medication,ProviderMedication,myweightloss mounjaro,providers;providerMedications(verified),none,noindex-until-verified
+/providers/myweightloss/wegovy,provider-medication,ProviderMedication,myweightloss wegovy,providers;providerMedications(verified),none,noindex-until-verified
+/providers/superdrug/mounjaro,provider-medication,ProviderMedication,superdrug mounjaro,providers;providerMedications(verified),none,noindex-until-verified
+/providers/superdrug/wegovy,provider-medication,ProviderMedication,superdrug wegovy,providers;providerMedications(verified),none,noindex-until-verified
+/providers/boots/mounjaro,provider-medication,ProviderMedication,boots mounjaro,providers;providerMedications(verified),none,noindex-until-verified
+/providers/boots/wegovy,provider-medication,ProviderMedication,boots wegovy,providers;providerMedications(verified),none,noindex-until-verified
+/providers/asda/mounjaro,provider-medication,ProviderMedication,asda mounjaro,providers;providerMedications(verified),none,noindex-until-verified
+/providers/asda/wegovy,provider-medication,ProviderMedication,asda wegovy,providers;providerMedications(verified),none,noindex-until-verified
+/providers/lloyds/mounjaro,provider-medication,ProviderMedication,lloydspharmacy mounjaro,providers;providerMedications(verified),none,noindex-until-verified
+/providers/lloyds/wegovy,provider-medication,ProviderMedication,lloydspharmacy wegovy,providers;providerMedications(verified),none,noindex-until-verified
+/providers/well/mounjaro,provider-medication,ProviderMedication,well pharmacy mounjaro,providers;providerMedications(verified),none,noindex-until-verified
+/providers/well/wegovy,provider-medication,ProviderMedication,well pharmacy wegovy,providers;providerMedications(verified),none,noindex-until-verified
+/providers/zava/mounjaro,provider-medication,ProviderMedication,zava mounjaro,providers;providerMedications(verified),none,noindex-until-verified
+/providers/zava/wegovy,provider-medication,ProviderMedication,zava wegovy,providers;providerMedications(verified),none,noindex-until-verified
+/providers/numan/mounjaro,provider-medication,ProviderMedication,numan mounjaro,providers;providerMedications(verified),none,noindex-until-verified
+/providers/numan/wegovy,provider-medication,ProviderMedication,numan wegovy,providers;providerMedications(verified),none,noindex-until-verified
+/providers/manual/mounjaro,provider-medication,ProviderMedication,manual mounjaro,providers;providerMedications(verified),none,noindex-until-verified
+/providers/manual/wegovy,provider-medication,ProviderMedication,manual wegovy,providers;providerMedications(verified),none,noindex-until-verified
+/providers/juniper/mounjaro,provider-medication,ProviderMedication,juniper mounjaro,providers;providerMedications(verified),none,noindex-until-verified
+/providers/juniper/wegovy,provider-medication,ProviderMedication,juniper wegovy,providers;providerMedications(verified),none,noindex-until-verified
+/providers/voy/mounjaro,provider-medication,ProviderMedication,voy mounjaro,providers;providerMedications(verified),none,noindex-until-verified
+/providers/voy/wegovy,provider-medication,ProviderMedication,voy wegovy,providers;providerMedications(verified),none,noindex-until-verified
+/providers/simple-online-pharmacy/mounjaro,provider-medication,ProviderMedication,simple online pharmacy mounjaro,providers;providerMedications(verified),none,noindex-until-verified
+/providers/simple-online-pharmacy/wegovy,provider-medication,ProviderMedication,simple online pharmacy wegovy,providers;providerMedications(verified),none,noindex-until-verified
+/providers/pharmacy2u/mounjaro,provider-medication,ProviderMedication,pharmacy2u mounjaro,providers;providerMedications(verified),none,noindex-until-verified
+/providers/pharmacy2u/wegovy,provider-medication,ProviderMedication,pharmacy2u wegovy,providers;providerMedications(verified),none,noindex-until-verified
+/providers/medexpress/mounjaro,provider-medication,ProviderMedication,medexpress mounjaro,providers;providerMedications(verified),none,noindex-until-verified
+/providers/medexpress/wegovy,provider-medication,ProviderMedication,medexpress wegovy,providers;providerMedications(verified),none,noindex-until-verified
+/providers/oxford-online-pharmacy/mounjaro,provider-medication,ProviderMedication,oxford online pharmacy mounjaro,providers;providerMedications(verified),none,noindex-until-verified
+/providers/oxford-online-pharmacy/wegovy,provider-medication,ProviderMedication,oxford online pharmacy wegovy,providers;providerMedications(verified),none,noindex-until-verified
+/providers/click-pharmacy/mounjaro,provider-medication,ProviderMedication,click pharmacy mounjaro,providers;providerMedications(verified),none,noindex-until-verified
+/providers/click-pharmacy/wegovy,provider-medication,ProviderMedication,click pharmacy wegovy,providers;providerMedications(verified),none,noindex-until-verified
+/providers/phlo/mounjaro,provider-medication,ProviderMedication,phlo mounjaro,providers;providerMedications(verified),none,noindex-until-verified
+/providers/phlo/wegovy,provider-medication,ProviderMedication,phlo wegovy,providers;providerMedications(verified),none,noindex-until-verified
+/providers/uk-meds/mounjaro,provider-medication,ProviderMedication,uk meds mounjaro,providers;providerMedications(verified),none,noindex-until-verified
+/providers/uk-meds/wegovy,provider-medication,ProviderMedication,uk meds wegovy,providers;providerMedications(verified),none,noindex-until-verified
+/providers/chemist4u/mounjaro/2-5mg,provider-medication-dose,ProviderDosePrice,chemist4u mounjaro 2.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/chemist4u/mounjaro/5mg,provider-medication-dose,ProviderDosePrice,chemist4u mounjaro 5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/chemist4u/mounjaro/7-5mg,provider-medication-dose,ProviderDosePrice,chemist4u mounjaro 7.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/chemist4u/mounjaro/10mg,provider-medication-dose,ProviderDosePrice,chemist4u mounjaro 10mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/chemist4u/mounjaro/12-5mg,provider-medication-dose,ProviderDosePrice,chemist4u mounjaro 12.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/chemist4u/mounjaro/15mg,provider-medication-dose,ProviderDosePrice,chemist4u mounjaro 15mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/chemist4u/wegovy/0-25mg,provider-medication-dose,ProviderDosePrice,chemist4u wegovy 0.25mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/chemist4u/wegovy/0-5mg,provider-medication-dose,ProviderDosePrice,chemist4u wegovy 0.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/chemist4u/wegovy/1mg,provider-medication-dose,ProviderDosePrice,chemist4u wegovy 1mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/chemist4u/wegovy/1-7mg,provider-medication-dose,ProviderDosePrice,chemist4u wegovy 1.7mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/chemist4u/wegovy/2-4mg,provider-medication-dose,ProviderDosePrice,chemist4u wegovy 2.4mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/mybmi/mounjaro/2-5mg,provider-medication-dose,ProviderDosePrice,mybmi mounjaro 2.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/mybmi/mounjaro/5mg,provider-medication-dose,ProviderDosePrice,mybmi mounjaro 5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/mybmi/mounjaro/7-5mg,provider-medication-dose,ProviderDosePrice,mybmi mounjaro 7.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/mybmi/mounjaro/10mg,provider-medication-dose,ProviderDosePrice,mybmi mounjaro 10mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/mybmi/mounjaro/12-5mg,provider-medication-dose,ProviderDosePrice,mybmi mounjaro 12.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/mybmi/mounjaro/15mg,provider-medication-dose,ProviderDosePrice,mybmi mounjaro 15mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/mybmi/wegovy/0-25mg,provider-medication-dose,ProviderDosePrice,mybmi wegovy 0.25mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/mybmi/wegovy/0-5mg,provider-medication-dose,ProviderDosePrice,mybmi wegovy 0.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/mybmi/wegovy/1mg,provider-medication-dose,ProviderDosePrice,mybmi wegovy 1mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/mybmi/wegovy/1-7mg,provider-medication-dose,ProviderDosePrice,mybmi wegovy 1.7mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/mybmi/wegovy/2-4mg,provider-medication-dose,ProviderDosePrice,mybmi wegovy 2.4mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/myweightloss/mounjaro/2-5mg,provider-medication-dose,ProviderDosePrice,myweightloss mounjaro 2.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/myweightloss/mounjaro/5mg,provider-medication-dose,ProviderDosePrice,myweightloss mounjaro 5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/myweightloss/mounjaro/7-5mg,provider-medication-dose,ProviderDosePrice,myweightloss mounjaro 7.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/myweightloss/mounjaro/10mg,provider-medication-dose,ProviderDosePrice,myweightloss mounjaro 10mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/myweightloss/mounjaro/12-5mg,provider-medication-dose,ProviderDosePrice,myweightloss mounjaro 12.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/myweightloss/mounjaro/15mg,provider-medication-dose,ProviderDosePrice,myweightloss mounjaro 15mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/myweightloss/wegovy/0-25mg,provider-medication-dose,ProviderDosePrice,myweightloss wegovy 0.25mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/myweightloss/wegovy/0-5mg,provider-medication-dose,ProviderDosePrice,myweightloss wegovy 0.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/myweightloss/wegovy/1mg,provider-medication-dose,ProviderDosePrice,myweightloss wegovy 1mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/myweightloss/wegovy/1-7mg,provider-medication-dose,ProviderDosePrice,myweightloss wegovy 1.7mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/myweightloss/wegovy/2-4mg,provider-medication-dose,ProviderDosePrice,myweightloss wegovy 2.4mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/superdrug/mounjaro/2-5mg,provider-medication-dose,ProviderDosePrice,superdrug mounjaro 2.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/superdrug/mounjaro/5mg,provider-medication-dose,ProviderDosePrice,superdrug mounjaro 5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/superdrug/mounjaro/7-5mg,provider-medication-dose,ProviderDosePrice,superdrug mounjaro 7.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/superdrug/mounjaro/10mg,provider-medication-dose,ProviderDosePrice,superdrug mounjaro 10mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/superdrug/mounjaro/12-5mg,provider-medication-dose,ProviderDosePrice,superdrug mounjaro 12.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/superdrug/mounjaro/15mg,provider-medication-dose,ProviderDosePrice,superdrug mounjaro 15mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/superdrug/wegovy/0-25mg,provider-medication-dose,ProviderDosePrice,superdrug wegovy 0.25mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/superdrug/wegovy/0-5mg,provider-medication-dose,ProviderDosePrice,superdrug wegovy 0.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/superdrug/wegovy/1mg,provider-medication-dose,ProviderDosePrice,superdrug wegovy 1mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/superdrug/wegovy/1-7mg,provider-medication-dose,ProviderDosePrice,superdrug wegovy 1.7mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/superdrug/wegovy/2-4mg,provider-medication-dose,ProviderDosePrice,superdrug wegovy 2.4mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/boots/mounjaro/2-5mg,provider-medication-dose,ProviderDosePrice,boots mounjaro 2.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/boots/mounjaro/5mg,provider-medication-dose,ProviderDosePrice,boots mounjaro 5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/boots/mounjaro/7-5mg,provider-medication-dose,ProviderDosePrice,boots mounjaro 7.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/boots/mounjaro/10mg,provider-medication-dose,ProviderDosePrice,boots mounjaro 10mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/boots/mounjaro/12-5mg,provider-medication-dose,ProviderDosePrice,boots mounjaro 12.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/boots/mounjaro/15mg,provider-medication-dose,ProviderDosePrice,boots mounjaro 15mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/boots/wegovy/0-25mg,provider-medication-dose,ProviderDosePrice,boots wegovy 0.25mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/boots/wegovy/0-5mg,provider-medication-dose,ProviderDosePrice,boots wegovy 0.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/boots/wegovy/1mg,provider-medication-dose,ProviderDosePrice,boots wegovy 1mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/boots/wegovy/1-7mg,provider-medication-dose,ProviderDosePrice,boots wegovy 1.7mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/boots/wegovy/2-4mg,provider-medication-dose,ProviderDosePrice,boots wegovy 2.4mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/asda/mounjaro/2-5mg,provider-medication-dose,ProviderDosePrice,asda mounjaro 2.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/asda/mounjaro/5mg,provider-medication-dose,ProviderDosePrice,asda mounjaro 5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/asda/mounjaro/7-5mg,provider-medication-dose,ProviderDosePrice,asda mounjaro 7.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/asda/mounjaro/10mg,provider-medication-dose,ProviderDosePrice,asda mounjaro 10mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/asda/mounjaro/12-5mg,provider-medication-dose,ProviderDosePrice,asda mounjaro 12.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/asda/mounjaro/15mg,provider-medication-dose,ProviderDosePrice,asda mounjaro 15mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/asda/wegovy/0-25mg,provider-medication-dose,ProviderDosePrice,asda wegovy 0.25mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/asda/wegovy/0-5mg,provider-medication-dose,ProviderDosePrice,asda wegovy 0.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/asda/wegovy/1mg,provider-medication-dose,ProviderDosePrice,asda wegovy 1mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/asda/wegovy/1-7mg,provider-medication-dose,ProviderDosePrice,asda wegovy 1.7mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/asda/wegovy/2-4mg,provider-medication-dose,ProviderDosePrice,asda wegovy 2.4mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/lloyds/mounjaro/2-5mg,provider-medication-dose,ProviderDosePrice,lloydspharmacy mounjaro 2.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/lloyds/mounjaro/5mg,provider-medication-dose,ProviderDosePrice,lloydspharmacy mounjaro 5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/lloyds/mounjaro/7-5mg,provider-medication-dose,ProviderDosePrice,lloydspharmacy mounjaro 7.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/lloyds/mounjaro/10mg,provider-medication-dose,ProviderDosePrice,lloydspharmacy mounjaro 10mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/lloyds/mounjaro/12-5mg,provider-medication-dose,ProviderDosePrice,lloydspharmacy mounjaro 12.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/lloyds/mounjaro/15mg,provider-medication-dose,ProviderDosePrice,lloydspharmacy mounjaro 15mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/lloyds/wegovy/0-25mg,provider-medication-dose,ProviderDosePrice,lloydspharmacy wegovy 0.25mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/lloyds/wegovy/0-5mg,provider-medication-dose,ProviderDosePrice,lloydspharmacy wegovy 0.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/lloyds/wegovy/1mg,provider-medication-dose,ProviderDosePrice,lloydspharmacy wegovy 1mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/lloyds/wegovy/1-7mg,provider-medication-dose,ProviderDosePrice,lloydspharmacy wegovy 1.7mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/lloyds/wegovy/2-4mg,provider-medication-dose,ProviderDosePrice,lloydspharmacy wegovy 2.4mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/well/mounjaro/2-5mg,provider-medication-dose,ProviderDosePrice,well pharmacy mounjaro 2.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/well/mounjaro/5mg,provider-medication-dose,ProviderDosePrice,well pharmacy mounjaro 5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/well/mounjaro/7-5mg,provider-medication-dose,ProviderDosePrice,well pharmacy mounjaro 7.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/well/mounjaro/10mg,provider-medication-dose,ProviderDosePrice,well pharmacy mounjaro 10mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/well/mounjaro/12-5mg,provider-medication-dose,ProviderDosePrice,well pharmacy mounjaro 12.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/well/mounjaro/15mg,provider-medication-dose,ProviderDosePrice,well pharmacy mounjaro 15mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/well/wegovy/0-25mg,provider-medication-dose,ProviderDosePrice,well pharmacy wegovy 0.25mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/well/wegovy/0-5mg,provider-medication-dose,ProviderDosePrice,well pharmacy wegovy 0.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/well/wegovy/1mg,provider-medication-dose,ProviderDosePrice,well pharmacy wegovy 1mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/well/wegovy/1-7mg,provider-medication-dose,ProviderDosePrice,well pharmacy wegovy 1.7mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/well/wegovy/2-4mg,provider-medication-dose,ProviderDosePrice,well pharmacy wegovy 2.4mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/zava/mounjaro/2-5mg,provider-medication-dose,ProviderDosePrice,zava mounjaro 2.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/zava/mounjaro/5mg,provider-medication-dose,ProviderDosePrice,zava mounjaro 5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/zava/mounjaro/7-5mg,provider-medication-dose,ProviderDosePrice,zava mounjaro 7.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/zava/mounjaro/10mg,provider-medication-dose,ProviderDosePrice,zava mounjaro 10mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/zava/mounjaro/12-5mg,provider-medication-dose,ProviderDosePrice,zava mounjaro 12.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/zava/mounjaro/15mg,provider-medication-dose,ProviderDosePrice,zava mounjaro 15mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/zava/wegovy/0-25mg,provider-medication-dose,ProviderDosePrice,zava wegovy 0.25mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/zava/wegovy/0-5mg,provider-medication-dose,ProviderDosePrice,zava wegovy 0.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/zava/wegovy/1mg,provider-medication-dose,ProviderDosePrice,zava wegovy 1mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/zava/wegovy/1-7mg,provider-medication-dose,ProviderDosePrice,zava wegovy 1.7mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/zava/wegovy/2-4mg,provider-medication-dose,ProviderDosePrice,zava wegovy 2.4mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/numan/mounjaro/2-5mg,provider-medication-dose,ProviderDosePrice,numan mounjaro 2.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/numan/mounjaro/5mg,provider-medication-dose,ProviderDosePrice,numan mounjaro 5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/numan/mounjaro/7-5mg,provider-medication-dose,ProviderDosePrice,numan mounjaro 7.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/numan/mounjaro/10mg,provider-medication-dose,ProviderDosePrice,numan mounjaro 10mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/numan/mounjaro/12-5mg,provider-medication-dose,ProviderDosePrice,numan mounjaro 12.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/numan/mounjaro/15mg,provider-medication-dose,ProviderDosePrice,numan mounjaro 15mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/numan/wegovy/0-25mg,provider-medication-dose,ProviderDosePrice,numan wegovy 0.25mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/numan/wegovy/0-5mg,provider-medication-dose,ProviderDosePrice,numan wegovy 0.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/numan/wegovy/1mg,provider-medication-dose,ProviderDosePrice,numan wegovy 1mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/numan/wegovy/1-7mg,provider-medication-dose,ProviderDosePrice,numan wegovy 1.7mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/numan/wegovy/2-4mg,provider-medication-dose,ProviderDosePrice,numan wegovy 2.4mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/manual/mounjaro/2-5mg,provider-medication-dose,ProviderDosePrice,manual mounjaro 2.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/manual/mounjaro/5mg,provider-medication-dose,ProviderDosePrice,manual mounjaro 5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/manual/mounjaro/7-5mg,provider-medication-dose,ProviderDosePrice,manual mounjaro 7.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/manual/mounjaro/10mg,provider-medication-dose,ProviderDosePrice,manual mounjaro 10mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/manual/mounjaro/12-5mg,provider-medication-dose,ProviderDosePrice,manual mounjaro 12.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/manual/mounjaro/15mg,provider-medication-dose,ProviderDosePrice,manual mounjaro 15mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/manual/wegovy/0-25mg,provider-medication-dose,ProviderDosePrice,manual wegovy 0.25mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/manual/wegovy/0-5mg,provider-medication-dose,ProviderDosePrice,manual wegovy 0.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/manual/wegovy/1mg,provider-medication-dose,ProviderDosePrice,manual wegovy 1mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/manual/wegovy/1-7mg,provider-medication-dose,ProviderDosePrice,manual wegovy 1.7mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/manual/wegovy/2-4mg,provider-medication-dose,ProviderDosePrice,manual wegovy 2.4mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/juniper/mounjaro/2-5mg,provider-medication-dose,ProviderDosePrice,juniper mounjaro 2.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/juniper/mounjaro/5mg,provider-medication-dose,ProviderDosePrice,juniper mounjaro 5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/juniper/mounjaro/7-5mg,provider-medication-dose,ProviderDosePrice,juniper mounjaro 7.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/juniper/mounjaro/10mg,provider-medication-dose,ProviderDosePrice,juniper mounjaro 10mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/juniper/mounjaro/12-5mg,provider-medication-dose,ProviderDosePrice,juniper mounjaro 12.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/juniper/mounjaro/15mg,provider-medication-dose,ProviderDosePrice,juniper mounjaro 15mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/juniper/wegovy/0-25mg,provider-medication-dose,ProviderDosePrice,juniper wegovy 0.25mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/juniper/wegovy/0-5mg,provider-medication-dose,ProviderDosePrice,juniper wegovy 0.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/juniper/wegovy/1mg,provider-medication-dose,ProviderDosePrice,juniper wegovy 1mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/juniper/wegovy/1-7mg,provider-medication-dose,ProviderDosePrice,juniper wegovy 1.7mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/juniper/wegovy/2-4mg,provider-medication-dose,ProviderDosePrice,juniper wegovy 2.4mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/voy/mounjaro/2-5mg,provider-medication-dose,ProviderDosePrice,voy mounjaro 2.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/voy/mounjaro/5mg,provider-medication-dose,ProviderDosePrice,voy mounjaro 5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/voy/mounjaro/7-5mg,provider-medication-dose,ProviderDosePrice,voy mounjaro 7.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/voy/mounjaro/10mg,provider-medication-dose,ProviderDosePrice,voy mounjaro 10mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/voy/mounjaro/12-5mg,provider-medication-dose,ProviderDosePrice,voy mounjaro 12.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/voy/mounjaro/15mg,provider-medication-dose,ProviderDosePrice,voy mounjaro 15mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/voy/wegovy/0-25mg,provider-medication-dose,ProviderDosePrice,voy wegovy 0.25mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/voy/wegovy/0-5mg,provider-medication-dose,ProviderDosePrice,voy wegovy 0.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/voy/wegovy/1mg,provider-medication-dose,ProviderDosePrice,voy wegovy 1mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/voy/wegovy/1-7mg,provider-medication-dose,ProviderDosePrice,voy wegovy 1.7mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/voy/wegovy/2-4mg,provider-medication-dose,ProviderDosePrice,voy wegovy 2.4mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/simple-online-pharmacy/mounjaro/2-5mg,provider-medication-dose,ProviderDosePrice,simple online pharmacy mounjaro 2.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/simple-online-pharmacy/mounjaro/5mg,provider-medication-dose,ProviderDosePrice,simple online pharmacy mounjaro 5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/simple-online-pharmacy/mounjaro/7-5mg,provider-medication-dose,ProviderDosePrice,simple online pharmacy mounjaro 7.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/simple-online-pharmacy/mounjaro/10mg,provider-medication-dose,ProviderDosePrice,simple online pharmacy mounjaro 10mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/simple-online-pharmacy/mounjaro/12-5mg,provider-medication-dose,ProviderDosePrice,simple online pharmacy mounjaro 12.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/simple-online-pharmacy/mounjaro/15mg,provider-medication-dose,ProviderDosePrice,simple online pharmacy mounjaro 15mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/simple-online-pharmacy/wegovy/0-25mg,provider-medication-dose,ProviderDosePrice,simple online pharmacy wegovy 0.25mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/simple-online-pharmacy/wegovy/0-5mg,provider-medication-dose,ProviderDosePrice,simple online pharmacy wegovy 0.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/simple-online-pharmacy/wegovy/1mg,provider-medication-dose,ProviderDosePrice,simple online pharmacy wegovy 1mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/simple-online-pharmacy/wegovy/1-7mg,provider-medication-dose,ProviderDosePrice,simple online pharmacy wegovy 1.7mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/simple-online-pharmacy/wegovy/2-4mg,provider-medication-dose,ProviderDosePrice,simple online pharmacy wegovy 2.4mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/pharmacy2u/mounjaro/2-5mg,provider-medication-dose,ProviderDosePrice,pharmacy2u mounjaro 2.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/pharmacy2u/mounjaro/5mg,provider-medication-dose,ProviderDosePrice,pharmacy2u mounjaro 5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/pharmacy2u/mounjaro/7-5mg,provider-medication-dose,ProviderDosePrice,pharmacy2u mounjaro 7.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/pharmacy2u/mounjaro/10mg,provider-medication-dose,ProviderDosePrice,pharmacy2u mounjaro 10mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/pharmacy2u/mounjaro/12-5mg,provider-medication-dose,ProviderDosePrice,pharmacy2u mounjaro 12.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/pharmacy2u/mounjaro/15mg,provider-medication-dose,ProviderDosePrice,pharmacy2u mounjaro 15mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/pharmacy2u/wegovy/0-25mg,provider-medication-dose,ProviderDosePrice,pharmacy2u wegovy 0.25mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/pharmacy2u/wegovy/0-5mg,provider-medication-dose,ProviderDosePrice,pharmacy2u wegovy 0.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/pharmacy2u/wegovy/1mg,provider-medication-dose,ProviderDosePrice,pharmacy2u wegovy 1mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/pharmacy2u/wegovy/1-7mg,provider-medication-dose,ProviderDosePrice,pharmacy2u wegovy 1.7mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/pharmacy2u/wegovy/2-4mg,provider-medication-dose,ProviderDosePrice,pharmacy2u wegovy 2.4mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/medexpress/mounjaro/2-5mg,provider-medication-dose,ProviderDosePrice,medexpress mounjaro 2.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/medexpress/mounjaro/5mg,provider-medication-dose,ProviderDosePrice,medexpress mounjaro 5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/medexpress/mounjaro/7-5mg,provider-medication-dose,ProviderDosePrice,medexpress mounjaro 7.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/medexpress/mounjaro/10mg,provider-medication-dose,ProviderDosePrice,medexpress mounjaro 10mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/medexpress/mounjaro/12-5mg,provider-medication-dose,ProviderDosePrice,medexpress mounjaro 12.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/medexpress/mounjaro/15mg,provider-medication-dose,ProviderDosePrice,medexpress mounjaro 15mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/medexpress/wegovy/0-25mg,provider-medication-dose,ProviderDosePrice,medexpress wegovy 0.25mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/medexpress/wegovy/0-5mg,provider-medication-dose,ProviderDosePrice,medexpress wegovy 0.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/medexpress/wegovy/1mg,provider-medication-dose,ProviderDosePrice,medexpress wegovy 1mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/medexpress/wegovy/1-7mg,provider-medication-dose,ProviderDosePrice,medexpress wegovy 1.7mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/medexpress/wegovy/2-4mg,provider-medication-dose,ProviderDosePrice,medexpress wegovy 2.4mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/oxford-online-pharmacy/mounjaro/2-5mg,provider-medication-dose,ProviderDosePrice,oxford online pharmacy mounjaro 2.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/oxford-online-pharmacy/mounjaro/5mg,provider-medication-dose,ProviderDosePrice,oxford online pharmacy mounjaro 5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/oxford-online-pharmacy/mounjaro/7-5mg,provider-medication-dose,ProviderDosePrice,oxford online pharmacy mounjaro 7.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/oxford-online-pharmacy/mounjaro/10mg,provider-medication-dose,ProviderDosePrice,oxford online pharmacy mounjaro 10mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/oxford-online-pharmacy/mounjaro/12-5mg,provider-medication-dose,ProviderDosePrice,oxford online pharmacy mounjaro 12.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/oxford-online-pharmacy/mounjaro/15mg,provider-medication-dose,ProviderDosePrice,oxford online pharmacy mounjaro 15mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/oxford-online-pharmacy/wegovy/0-25mg,provider-medication-dose,ProviderDosePrice,oxford online pharmacy wegovy 0.25mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/oxford-online-pharmacy/wegovy/0-5mg,provider-medication-dose,ProviderDosePrice,oxford online pharmacy wegovy 0.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/oxford-online-pharmacy/wegovy/1mg,provider-medication-dose,ProviderDosePrice,oxford online pharmacy wegovy 1mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/oxford-online-pharmacy/wegovy/1-7mg,provider-medication-dose,ProviderDosePrice,oxford online pharmacy wegovy 1.7mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/oxford-online-pharmacy/wegovy/2-4mg,provider-medication-dose,ProviderDosePrice,oxford online pharmacy wegovy 2.4mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/click-pharmacy/mounjaro/2-5mg,provider-medication-dose,ProviderDosePrice,click pharmacy mounjaro 2.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/click-pharmacy/mounjaro/5mg,provider-medication-dose,ProviderDosePrice,click pharmacy mounjaro 5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/click-pharmacy/mounjaro/7-5mg,provider-medication-dose,ProviderDosePrice,click pharmacy mounjaro 7.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/click-pharmacy/mounjaro/10mg,provider-medication-dose,ProviderDosePrice,click pharmacy mounjaro 10mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/click-pharmacy/mounjaro/12-5mg,provider-medication-dose,ProviderDosePrice,click pharmacy mounjaro 12.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/click-pharmacy/mounjaro/15mg,provider-medication-dose,ProviderDosePrice,click pharmacy mounjaro 15mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/click-pharmacy/wegovy/0-25mg,provider-medication-dose,ProviderDosePrice,click pharmacy wegovy 0.25mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/click-pharmacy/wegovy/0-5mg,provider-medication-dose,ProviderDosePrice,click pharmacy wegovy 0.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/click-pharmacy/wegovy/1mg,provider-medication-dose,ProviderDosePrice,click pharmacy wegovy 1mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/click-pharmacy/wegovy/1-7mg,provider-medication-dose,ProviderDosePrice,click pharmacy wegovy 1.7mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/click-pharmacy/wegovy/2-4mg,provider-medication-dose,ProviderDosePrice,click pharmacy wegovy 2.4mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/phlo/mounjaro/2-5mg,provider-medication-dose,ProviderDosePrice,phlo mounjaro 2.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/phlo/mounjaro/5mg,provider-medication-dose,ProviderDosePrice,phlo mounjaro 5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/phlo/mounjaro/7-5mg,provider-medication-dose,ProviderDosePrice,phlo mounjaro 7.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/phlo/mounjaro/10mg,provider-medication-dose,ProviderDosePrice,phlo mounjaro 10mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/phlo/mounjaro/12-5mg,provider-medication-dose,ProviderDosePrice,phlo mounjaro 12.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/phlo/mounjaro/15mg,provider-medication-dose,ProviderDosePrice,phlo mounjaro 15mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/phlo/wegovy/0-25mg,provider-medication-dose,ProviderDosePrice,phlo wegovy 0.25mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/phlo/wegovy/0-5mg,provider-medication-dose,ProviderDosePrice,phlo wegovy 0.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/phlo/wegovy/1mg,provider-medication-dose,ProviderDosePrice,phlo wegovy 1mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/phlo/wegovy/1-7mg,provider-medication-dose,ProviderDosePrice,phlo wegovy 1.7mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/phlo/wegovy/2-4mg,provider-medication-dose,ProviderDosePrice,phlo wegovy 2.4mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/uk-meds/mounjaro/2-5mg,provider-medication-dose,ProviderDosePrice,uk meds mounjaro 2.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/uk-meds/mounjaro/5mg,provider-medication-dose,ProviderDosePrice,uk meds mounjaro 5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/uk-meds/mounjaro/7-5mg,provider-medication-dose,ProviderDosePrice,uk meds mounjaro 7.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/uk-meds/mounjaro/10mg,provider-medication-dose,ProviderDosePrice,uk meds mounjaro 10mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/uk-meds/mounjaro/12-5mg,provider-medication-dose,ProviderDosePrice,uk meds mounjaro 12.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/uk-meds/mounjaro/15mg,provider-medication-dose,ProviderDosePrice,uk meds mounjaro 15mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/uk-meds/wegovy/0-25mg,provider-medication-dose,ProviderDosePrice,uk meds wegovy 0.25mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/uk-meds/wegovy/0-5mg,provider-medication-dose,ProviderDosePrice,uk meds wegovy 0.5mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/uk-meds/wegovy/1mg,provider-medication-dose,ProviderDosePrice,uk meds wegovy 1mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/uk-meds/wegovy/1-7mg,provider-medication-dose,ProviderDosePrice,uk meds wegovy 1.7mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/uk-meds/wegovy/2-4mg,provider-medication-dose,ProviderDosePrice,uk meds wegovy 2.4mg price,"providers;pricePoints(provider,med,dose;checkedAt)",pomPricing,noindex-until-verified
+/providers/chemist4u/discount-codes,provider-discount-codes,ProviderDiscounts,chemist4u discount code,"offers(verified, expiry);affiliateLinks",discountCodes,noindex-until-verified
+/providers/mybmi/discount-codes,provider-discount-codes,ProviderDiscounts,mybmi discount code,"offers(verified, expiry);affiliateLinks",discountCodes,noindex-until-verified
+/providers/myweightloss/discount-codes,provider-discount-codes,ProviderDiscounts,myweightloss discount code,"offers(verified, expiry);affiliateLinks",discountCodes,noindex-until-verified
+/providers/superdrug/discount-codes,provider-discount-codes,ProviderDiscounts,superdrug discount code,"offers(verified, expiry);affiliateLinks",discountCodes,noindex-until-verified
+/providers/boots/discount-codes,provider-discount-codes,ProviderDiscounts,boots discount code,"offers(verified, expiry);affiliateLinks",discountCodes,noindex-until-verified
+/providers/asda/discount-codes,provider-discount-codes,ProviderDiscounts,asda discount code,"offers(verified, expiry);affiliateLinks",discountCodes,noindex-until-verified
+/providers/lloyds/discount-codes,provider-discount-codes,ProviderDiscounts,lloydspharmacy discount code,"offers(verified, expiry);affiliateLinks",discountCodes,noindex-until-verified
+/providers/well/discount-codes,provider-discount-codes,ProviderDiscounts,well pharmacy discount code,"offers(verified, expiry);affiliateLinks",discountCodes,noindex-until-verified
+/providers/zava/discount-codes,provider-discount-codes,ProviderDiscounts,zava discount code,"offers(verified, expiry);affiliateLinks",discountCodes,noindex-until-verified
+/providers/numan/discount-codes,provider-discount-codes,ProviderDiscounts,numan discount code,"offers(verified, expiry);affiliateLinks",discountCodes,noindex-until-verified
+/providers/manual/discount-codes,provider-discount-codes,ProviderDiscounts,manual discount code,"offers(verified, expiry);affiliateLinks",discountCodes,noindex-until-verified
+/providers/juniper/discount-codes,provider-discount-codes,ProviderDiscounts,juniper discount code,"offers(verified, expiry);affiliateLinks",discountCodes,noindex-until-verified
+/providers/voy/discount-codes,provider-discount-codes,ProviderDiscounts,voy discount code,"offers(verified, expiry);affiliateLinks",discountCodes,noindex-until-verified
+/providers/simple-online-pharmacy/discount-codes,provider-discount-codes,ProviderDiscounts,simple online pharmacy discount code,"offers(verified, expiry);affiliateLinks",discountCodes,noindex-until-verified
+/providers/pharmacy2u/discount-codes,provider-discount-codes,ProviderDiscounts,pharmacy2u discount code,"offers(verified, expiry);affiliateLinks",discountCodes,noindex-until-verified
+/providers/medexpress/discount-codes,provider-discount-codes,ProviderDiscounts,medexpress discount code,"offers(verified, expiry);affiliateLinks",discountCodes,noindex-until-verified
+/providers/oxford-online-pharmacy/discount-codes,provider-discount-codes,ProviderDiscounts,oxford online pharmacy discount code,"offers(verified, expiry);affiliateLinks",discountCodes,noindex-until-verified
+/providers/click-pharmacy/discount-codes,provider-discount-codes,ProviderDiscounts,click pharmacy discount code,"offers(verified, expiry);affiliateLinks",discountCodes,noindex-until-verified
+/providers/phlo/discount-codes,provider-discount-codes,ProviderDiscounts,phlo discount code,"offers(verified, expiry);affiliateLinks",discountCodes,noindex-until-verified
+/providers/uk-meds/discount-codes,provider-discount-codes,ProviderDiscounts,uk meds discount code,"offers(verified, expiry);affiliateLinks",discountCodes,noindex-until-verified
+/compare,provider-compare-index,CompareIndex,compare weight loss providers,providers,none,index
+/compare/boots-vs-superdrug,provider-comparison-curated,ProviderComparison,boots vs superdrug,providers(both verified),none,noindex-until-verified
+/compare/chemist4u-vs-numan,provider-comparison-curated,ProviderComparison,chemist4u vs numan,providers(both verified),none,noindex-until-verified
+/compare/manual-vs-zava,provider-comparison-curated,ProviderComparison,manual vs zava,providers(both verified),none,noindex-until-verified
+/compare/asda-vs-boots,provider-comparison-curated,ProviderComparison,asda vs boots,providers(both verified),none,noindex-until-verified
+/compare/asda-vs-superdrug,provider-comparison-curated,ProviderComparison,asda vs superdrug,providers(both verified),none,noindex-until-verified
+/compare/juniper-vs-numan,provider-comparison-curated,ProviderComparison,juniper vs numan,providers(both verified),none,noindex-until-verified
+/compare/juniper-vs-voy,provider-comparison-curated,ProviderComparison,juniper vs voy,providers(both verified),none,noindex-until-verified
+/compare/boots-vs-pharmacy2u,provider-comparison-curated,ProviderComparison,boots vs pharmacy2u,providers(both verified),none,noindex-until-verified
+/compare/medexpress-vs-simple-online-pharmacy,provider-comparison-curated,ProviderComparison,medexpress vs simple online pharmacy,providers(both verified),none,noindex-until-verified
+/compare/boots-vs-lloyds,provider-comparison-curated,ProviderComparison,boots vs lloydspharmacy,providers(both verified),none,noindex-until-verified
+/compare/boots-vs-chemist4u,provider-comparison-curated,ProviderComparison,boots vs chemist4u,providers(both verified),none,noindex-until-verified
+/compare/chemist4u-vs-superdrug,provider-comparison-curated,ProviderComparison,chemist4u vs superdrug,providers(both verified),none,noindex-until-verified
+/compare/asda-vs-chemist4u,provider-comparison-matrix-phase4,ProviderComparison,asda vs chemist4u,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/asda-vs-click-pharmacy,provider-comparison-matrix-phase4,ProviderComparison,asda vs click pharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/asda-vs-juniper,provider-comparison-matrix-phase4,ProviderComparison,asda vs juniper,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/asda-vs-lloyds,provider-comparison-matrix-phase4,ProviderComparison,asda vs lloydspharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/asda-vs-manual,provider-comparison-matrix-phase4,ProviderComparison,asda vs manual,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/asda-vs-medexpress,provider-comparison-matrix-phase4,ProviderComparison,asda vs medexpress,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/asda-vs-mybmi,provider-comparison-matrix-phase4,ProviderComparison,asda vs mybmi,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/asda-vs-myweightloss,provider-comparison-matrix-phase4,ProviderComparison,asda vs myweightloss,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/asda-vs-numan,provider-comparison-matrix-phase4,ProviderComparison,asda vs numan,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/asda-vs-oxford-online-pharmacy,provider-comparison-matrix-phase4,ProviderComparison,asda vs oxford online pharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/asda-vs-pharmacy2u,provider-comparison-matrix-phase4,ProviderComparison,asda vs pharmacy2u,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/asda-vs-phlo,provider-comparison-matrix-phase4,ProviderComparison,asda vs phlo,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/asda-vs-simple-online-pharmacy,provider-comparison-matrix-phase4,ProviderComparison,asda vs simple online pharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/asda-vs-uk-meds,provider-comparison-matrix-phase4,ProviderComparison,asda vs uk meds,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/asda-vs-voy,provider-comparison-matrix-phase4,ProviderComparison,asda vs voy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/asda-vs-well,provider-comparison-matrix-phase4,ProviderComparison,asda vs well pharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/asda-vs-zava,provider-comparison-matrix-phase4,ProviderComparison,asda vs zava,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/boots-vs-click-pharmacy,provider-comparison-matrix-phase4,ProviderComparison,boots vs click pharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/boots-vs-juniper,provider-comparison-matrix-phase4,ProviderComparison,boots vs juniper,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/boots-vs-manual,provider-comparison-matrix-phase4,ProviderComparison,boots vs manual,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/boots-vs-medexpress,provider-comparison-matrix-phase4,ProviderComparison,boots vs medexpress,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/boots-vs-mybmi,provider-comparison-matrix-phase4,ProviderComparison,boots vs mybmi,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/boots-vs-myweightloss,provider-comparison-matrix-phase4,ProviderComparison,boots vs myweightloss,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/boots-vs-numan,provider-comparison-matrix-phase4,ProviderComparison,boots vs numan,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/boots-vs-oxford-online-pharmacy,provider-comparison-matrix-phase4,ProviderComparison,boots vs oxford online pharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/boots-vs-phlo,provider-comparison-matrix-phase4,ProviderComparison,boots vs phlo,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/boots-vs-simple-online-pharmacy,provider-comparison-matrix-phase4,ProviderComparison,boots vs simple online pharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/boots-vs-uk-meds,provider-comparison-matrix-phase4,ProviderComparison,boots vs uk meds,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/boots-vs-voy,provider-comparison-matrix-phase4,ProviderComparison,boots vs voy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/boots-vs-well,provider-comparison-matrix-phase4,ProviderComparison,boots vs well pharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/boots-vs-zava,provider-comparison-matrix-phase4,ProviderComparison,boots vs zava,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/chemist4u-vs-click-pharmacy,provider-comparison-matrix-phase4,ProviderComparison,chemist4u vs click pharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/chemist4u-vs-juniper,provider-comparison-matrix-phase4,ProviderComparison,chemist4u vs juniper,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/chemist4u-vs-lloyds,provider-comparison-matrix-phase4,ProviderComparison,chemist4u vs lloydspharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/chemist4u-vs-manual,provider-comparison-matrix-phase4,ProviderComparison,chemist4u vs manual,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/chemist4u-vs-medexpress,provider-comparison-matrix-phase4,ProviderComparison,chemist4u vs medexpress,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/chemist4u-vs-mybmi,provider-comparison-matrix-phase4,ProviderComparison,chemist4u vs mybmi,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/chemist4u-vs-myweightloss,provider-comparison-matrix-phase4,ProviderComparison,chemist4u vs myweightloss,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/chemist4u-vs-oxford-online-pharmacy,provider-comparison-matrix-phase4,ProviderComparison,chemist4u vs oxford online pharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/chemist4u-vs-pharmacy2u,provider-comparison-matrix-phase4,ProviderComparison,chemist4u vs pharmacy2u,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/chemist4u-vs-phlo,provider-comparison-matrix-phase4,ProviderComparison,chemist4u vs phlo,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/chemist4u-vs-simple-online-pharmacy,provider-comparison-matrix-phase4,ProviderComparison,chemist4u vs simple online pharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/chemist4u-vs-uk-meds,provider-comparison-matrix-phase4,ProviderComparison,chemist4u vs uk meds,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/chemist4u-vs-voy,provider-comparison-matrix-phase4,ProviderComparison,chemist4u vs voy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/chemist4u-vs-well,provider-comparison-matrix-phase4,ProviderComparison,chemist4u vs well pharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/chemist4u-vs-zava,provider-comparison-matrix-phase4,ProviderComparison,chemist4u vs zava,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/click-pharmacy-vs-juniper,provider-comparison-matrix-phase4,ProviderComparison,click pharmacy vs juniper,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/click-pharmacy-vs-lloyds,provider-comparison-matrix-phase4,ProviderComparison,click pharmacy vs lloydspharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/click-pharmacy-vs-manual,provider-comparison-matrix-phase4,ProviderComparison,click pharmacy vs manual,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/click-pharmacy-vs-medexpress,provider-comparison-matrix-phase4,ProviderComparison,click pharmacy vs medexpress,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/click-pharmacy-vs-mybmi,provider-comparison-matrix-phase4,ProviderComparison,click pharmacy vs mybmi,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/click-pharmacy-vs-myweightloss,provider-comparison-matrix-phase4,ProviderComparison,click pharmacy vs myweightloss,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/click-pharmacy-vs-numan,provider-comparison-matrix-phase4,ProviderComparison,click pharmacy vs numan,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/click-pharmacy-vs-oxford-online-pharmacy,provider-comparison-matrix-phase4,ProviderComparison,click pharmacy vs oxford online pharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/click-pharmacy-vs-pharmacy2u,provider-comparison-matrix-phase4,ProviderComparison,click pharmacy vs pharmacy2u,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/click-pharmacy-vs-phlo,provider-comparison-matrix-phase4,ProviderComparison,click pharmacy vs phlo,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/click-pharmacy-vs-simple-online-pharmacy,provider-comparison-matrix-phase4,ProviderComparison,click pharmacy vs simple online pharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/click-pharmacy-vs-superdrug,provider-comparison-matrix-phase4,ProviderComparison,click pharmacy vs superdrug,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/click-pharmacy-vs-uk-meds,provider-comparison-matrix-phase4,ProviderComparison,click pharmacy vs uk meds,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/click-pharmacy-vs-voy,provider-comparison-matrix-phase4,ProviderComparison,click pharmacy vs voy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/click-pharmacy-vs-well,provider-comparison-matrix-phase4,ProviderComparison,click pharmacy vs well pharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/click-pharmacy-vs-zava,provider-comparison-matrix-phase4,ProviderComparison,click pharmacy vs zava,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/juniper-vs-lloyds,provider-comparison-matrix-phase4,ProviderComparison,juniper vs lloydspharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/juniper-vs-manual,provider-comparison-matrix-phase4,ProviderComparison,juniper vs manual,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/juniper-vs-medexpress,provider-comparison-matrix-phase4,ProviderComparison,juniper vs medexpress,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/juniper-vs-mybmi,provider-comparison-matrix-phase4,ProviderComparison,juniper vs mybmi,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/juniper-vs-myweightloss,provider-comparison-matrix-phase4,ProviderComparison,juniper vs myweightloss,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/juniper-vs-oxford-online-pharmacy,provider-comparison-matrix-phase4,ProviderComparison,juniper vs oxford online pharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/juniper-vs-pharmacy2u,provider-comparison-matrix-phase4,ProviderComparison,juniper vs pharmacy2u,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/juniper-vs-phlo,provider-comparison-matrix-phase4,ProviderComparison,juniper vs phlo,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/juniper-vs-simple-online-pharmacy,provider-comparison-matrix-phase4,ProviderComparison,juniper vs simple online pharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/juniper-vs-superdrug,provider-comparison-matrix-phase4,ProviderComparison,juniper vs superdrug,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/juniper-vs-uk-meds,provider-comparison-matrix-phase4,ProviderComparison,juniper vs uk meds,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/juniper-vs-well,provider-comparison-matrix-phase4,ProviderComparison,juniper vs well pharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/juniper-vs-zava,provider-comparison-matrix-phase4,ProviderComparison,juniper vs zava,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/lloyds-vs-manual,provider-comparison-matrix-phase4,ProviderComparison,lloydspharmacy vs manual,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/lloyds-vs-medexpress,provider-comparison-matrix-phase4,ProviderComparison,lloydspharmacy vs medexpress,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/lloyds-vs-mybmi,provider-comparison-matrix-phase4,ProviderComparison,lloydspharmacy vs mybmi,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/lloyds-vs-myweightloss,provider-comparison-matrix-phase4,ProviderComparison,lloydspharmacy vs myweightloss,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/lloyds-vs-numan,provider-comparison-matrix-phase4,ProviderComparison,lloydspharmacy vs numan,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/lloyds-vs-oxford-online-pharmacy,provider-comparison-matrix-phase4,ProviderComparison,lloydspharmacy vs oxford online pharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/lloyds-vs-pharmacy2u,provider-comparison-matrix-phase4,ProviderComparison,lloydspharmacy vs pharmacy2u,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/lloyds-vs-phlo,provider-comparison-matrix-phase4,ProviderComparison,lloydspharmacy vs phlo,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/lloyds-vs-simple-online-pharmacy,provider-comparison-matrix-phase4,ProviderComparison,lloydspharmacy vs simple online pharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/lloyds-vs-superdrug,provider-comparison-matrix-phase4,ProviderComparison,lloydspharmacy vs superdrug,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/lloyds-vs-uk-meds,provider-comparison-matrix-phase4,ProviderComparison,lloydspharmacy vs uk meds,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/lloyds-vs-voy,provider-comparison-matrix-phase4,ProviderComparison,lloydspharmacy vs voy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/lloyds-vs-well,provider-comparison-matrix-phase4,ProviderComparison,lloydspharmacy vs well pharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/lloyds-vs-zava,provider-comparison-matrix-phase4,ProviderComparison,lloydspharmacy vs zava,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/manual-vs-medexpress,provider-comparison-matrix-phase4,ProviderComparison,manual vs medexpress,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/manual-vs-mybmi,provider-comparison-matrix-phase4,ProviderComparison,manual vs mybmi,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/manual-vs-myweightloss,provider-comparison-matrix-phase4,ProviderComparison,manual vs myweightloss,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/manual-vs-numan,provider-comparison-matrix-phase4,ProviderComparison,manual vs numan,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/manual-vs-oxford-online-pharmacy,provider-comparison-matrix-phase4,ProviderComparison,manual vs oxford online pharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/manual-vs-pharmacy2u,provider-comparison-matrix-phase4,ProviderComparison,manual vs pharmacy2u,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/manual-vs-phlo,provider-comparison-matrix-phase4,ProviderComparison,manual vs phlo,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/manual-vs-simple-online-pharmacy,provider-comparison-matrix-phase4,ProviderComparison,manual vs simple online pharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/manual-vs-superdrug,provider-comparison-matrix-phase4,ProviderComparison,manual vs superdrug,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/manual-vs-uk-meds,provider-comparison-matrix-phase4,ProviderComparison,manual vs uk meds,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/manual-vs-voy,provider-comparison-matrix-phase4,ProviderComparison,manual vs voy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/manual-vs-well,provider-comparison-matrix-phase4,ProviderComparison,manual vs well pharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/medexpress-vs-mybmi,provider-comparison-matrix-phase4,ProviderComparison,medexpress vs mybmi,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/medexpress-vs-myweightloss,provider-comparison-matrix-phase4,ProviderComparison,medexpress vs myweightloss,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/medexpress-vs-numan,provider-comparison-matrix-phase4,ProviderComparison,medexpress vs numan,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/medexpress-vs-oxford-online-pharmacy,provider-comparison-matrix-phase4,ProviderComparison,medexpress vs oxford online pharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/medexpress-vs-pharmacy2u,provider-comparison-matrix-phase4,ProviderComparison,medexpress vs pharmacy2u,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/medexpress-vs-phlo,provider-comparison-matrix-phase4,ProviderComparison,medexpress vs phlo,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/medexpress-vs-superdrug,provider-comparison-matrix-phase4,ProviderComparison,medexpress vs superdrug,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/medexpress-vs-uk-meds,provider-comparison-matrix-phase4,ProviderComparison,medexpress vs uk meds,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/medexpress-vs-voy,provider-comparison-matrix-phase4,ProviderComparison,medexpress vs voy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/medexpress-vs-well,provider-comparison-matrix-phase4,ProviderComparison,medexpress vs well pharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/medexpress-vs-zava,provider-comparison-matrix-phase4,ProviderComparison,medexpress vs zava,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/mybmi-vs-myweightloss,provider-comparison-matrix-phase4,ProviderComparison,mybmi vs myweightloss,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/mybmi-vs-numan,provider-comparison-matrix-phase4,ProviderComparison,mybmi vs numan,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/mybmi-vs-oxford-online-pharmacy,provider-comparison-matrix-phase4,ProviderComparison,mybmi vs oxford online pharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/mybmi-vs-pharmacy2u,provider-comparison-matrix-phase4,ProviderComparison,mybmi vs pharmacy2u,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/mybmi-vs-phlo,provider-comparison-matrix-phase4,ProviderComparison,mybmi vs phlo,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/mybmi-vs-simple-online-pharmacy,provider-comparison-matrix-phase4,ProviderComparison,mybmi vs simple online pharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/mybmi-vs-superdrug,provider-comparison-matrix-phase4,ProviderComparison,mybmi vs superdrug,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/mybmi-vs-uk-meds,provider-comparison-matrix-phase4,ProviderComparison,mybmi vs uk meds,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/mybmi-vs-voy,provider-comparison-matrix-phase4,ProviderComparison,mybmi vs voy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/mybmi-vs-well,provider-comparison-matrix-phase4,ProviderComparison,mybmi vs well pharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/mybmi-vs-zava,provider-comparison-matrix-phase4,ProviderComparison,mybmi vs zava,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/myweightloss-vs-numan,provider-comparison-matrix-phase4,ProviderComparison,myweightloss vs numan,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/myweightloss-vs-oxford-online-pharmacy,provider-comparison-matrix-phase4,ProviderComparison,myweightloss vs oxford online pharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/myweightloss-vs-pharmacy2u,provider-comparison-matrix-phase4,ProviderComparison,myweightloss vs pharmacy2u,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/myweightloss-vs-phlo,provider-comparison-matrix-phase4,ProviderComparison,myweightloss vs phlo,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/myweightloss-vs-simple-online-pharmacy,provider-comparison-matrix-phase4,ProviderComparison,myweightloss vs simple online pharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/myweightloss-vs-superdrug,provider-comparison-matrix-phase4,ProviderComparison,myweightloss vs superdrug,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/myweightloss-vs-uk-meds,provider-comparison-matrix-phase4,ProviderComparison,myweightloss vs uk meds,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/myweightloss-vs-voy,provider-comparison-matrix-phase4,ProviderComparison,myweightloss vs voy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/myweightloss-vs-well,provider-comparison-matrix-phase4,ProviderComparison,myweightloss vs well pharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/myweightloss-vs-zava,provider-comparison-matrix-phase4,ProviderComparison,myweightloss vs zava,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/numan-vs-oxford-online-pharmacy,provider-comparison-matrix-phase4,ProviderComparison,numan vs oxford online pharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/numan-vs-pharmacy2u,provider-comparison-matrix-phase4,ProviderComparison,numan vs pharmacy2u,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/numan-vs-phlo,provider-comparison-matrix-phase4,ProviderComparison,numan vs phlo,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/numan-vs-simple-online-pharmacy,provider-comparison-matrix-phase4,ProviderComparison,numan vs simple online pharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/numan-vs-superdrug,provider-comparison-matrix-phase4,ProviderComparison,numan vs superdrug,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/numan-vs-uk-meds,provider-comparison-matrix-phase4,ProviderComparison,numan vs uk meds,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/numan-vs-voy,provider-comparison-matrix-phase4,ProviderComparison,numan vs voy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/numan-vs-well,provider-comparison-matrix-phase4,ProviderComparison,numan vs well pharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/numan-vs-zava,provider-comparison-matrix-phase4,ProviderComparison,numan vs zava,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/oxford-online-pharmacy-vs-pharmacy2u,provider-comparison-matrix-phase4,ProviderComparison,oxford online pharmacy vs pharmacy2u,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/oxford-online-pharmacy-vs-phlo,provider-comparison-matrix-phase4,ProviderComparison,oxford online pharmacy vs phlo,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/oxford-online-pharmacy-vs-simple-online-pharmacy,provider-comparison-matrix-phase4,ProviderComparison,oxford online pharmacy vs simple online pharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/oxford-online-pharmacy-vs-superdrug,provider-comparison-matrix-phase4,ProviderComparison,oxford online pharmacy vs superdrug,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/oxford-online-pharmacy-vs-uk-meds,provider-comparison-matrix-phase4,ProviderComparison,oxford online pharmacy vs uk meds,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/oxford-online-pharmacy-vs-voy,provider-comparison-matrix-phase4,ProviderComparison,oxford online pharmacy vs voy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/oxford-online-pharmacy-vs-well,provider-comparison-matrix-phase4,ProviderComparison,oxford online pharmacy vs well pharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/oxford-online-pharmacy-vs-zava,provider-comparison-matrix-phase4,ProviderComparison,oxford online pharmacy vs zava,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/pharmacy2u-vs-phlo,provider-comparison-matrix-phase4,ProviderComparison,pharmacy2u vs phlo,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/pharmacy2u-vs-simple-online-pharmacy,provider-comparison-matrix-phase4,ProviderComparison,pharmacy2u vs simple online pharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/pharmacy2u-vs-superdrug,provider-comparison-matrix-phase4,ProviderComparison,pharmacy2u vs superdrug,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/pharmacy2u-vs-uk-meds,provider-comparison-matrix-phase4,ProviderComparison,pharmacy2u vs uk meds,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/pharmacy2u-vs-voy,provider-comparison-matrix-phase4,ProviderComparison,pharmacy2u vs voy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/pharmacy2u-vs-well,provider-comparison-matrix-phase4,ProviderComparison,pharmacy2u vs well pharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/pharmacy2u-vs-zava,provider-comparison-matrix-phase4,ProviderComparison,pharmacy2u vs zava,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/phlo-vs-simple-online-pharmacy,provider-comparison-matrix-phase4,ProviderComparison,phlo vs simple online pharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/phlo-vs-superdrug,provider-comparison-matrix-phase4,ProviderComparison,phlo vs superdrug,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/phlo-vs-uk-meds,provider-comparison-matrix-phase4,ProviderComparison,phlo vs uk meds,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/phlo-vs-voy,provider-comparison-matrix-phase4,ProviderComparison,phlo vs voy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/phlo-vs-well,provider-comparison-matrix-phase4,ProviderComparison,phlo vs well pharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/phlo-vs-zava,provider-comparison-matrix-phase4,ProviderComparison,phlo vs zava,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/simple-online-pharmacy-vs-superdrug,provider-comparison-matrix-phase4,ProviderComparison,simple online pharmacy vs superdrug,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/simple-online-pharmacy-vs-uk-meds,provider-comparison-matrix-phase4,ProviderComparison,simple online pharmacy vs uk meds,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/simple-online-pharmacy-vs-voy,provider-comparison-matrix-phase4,ProviderComparison,simple online pharmacy vs voy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/simple-online-pharmacy-vs-well,provider-comparison-matrix-phase4,ProviderComparison,simple online pharmacy vs well pharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/simple-online-pharmacy-vs-zava,provider-comparison-matrix-phase4,ProviderComparison,simple online pharmacy vs zava,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/superdrug-vs-uk-meds,provider-comparison-matrix-phase4,ProviderComparison,superdrug vs uk meds,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/superdrug-vs-voy,provider-comparison-matrix-phase4,ProviderComparison,superdrug vs voy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/superdrug-vs-well,provider-comparison-matrix-phase4,ProviderComparison,superdrug vs well pharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/superdrug-vs-zava,provider-comparison-matrix-phase4,ProviderComparison,superdrug vs zava,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/uk-meds-vs-voy,provider-comparison-matrix-phase4,ProviderComparison,uk meds vs voy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/uk-meds-vs-well,provider-comparison-matrix-phase4,ProviderComparison,uk meds vs well pharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/uk-meds-vs-zava,provider-comparison-matrix-phase4,ProviderComparison,uk meds vs zava,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/voy-vs-well,provider-comparison-matrix-phase4,ProviderComparison,voy vs well pharmacy,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/voy-vs-zava,provider-comparison-matrix-phase4,ProviderComparison,voy vs zava,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/compare/well-vs-zava,provider-comparison-matrix-phase4,ProviderComparison,well pharmacy vs zava,providers(both verified);demand signal (GSC/Ahrefs),none,noindex-until-verified
+/guides/topic/medications,guide-cluster-hub,ClusterHub,medications guides,articles(cluster),none,index
+/guides/topic/pricing,guide-cluster-hub,ClusterHub,pricing guides,articles(cluster),none,index
+/guides/topic/side-effects,guide-cluster-hub,ClusterHub,side effects guides,articles(cluster),none,index
+/guides/topic/dosing,guide-cluster-hub,ClusterHub,dosing guides,articles(cluster),none,index
+/guides/topic/eligibility,guide-cluster-hub,ClusterHub,eligibility guides,articles(cluster),none,index
+/guides/topic/comparisons,guide-cluster-hub,ClusterHub,comparisons guides,articles(cluster),none,index
+/guides/topic/results,guide-cluster-hub,ClusterHub,results guides,articles(cluster),none,index
+/guides/topic/maintenance,guide-cluster-hub,ClusterHub,maintenance guides,articles(cluster),none,index
+/guides/topic/switching,guide-cluster-hub,ClusterHub,switching guides,articles(cluster),none,index
+/guides/topic/exercise,guide-cluster-hub,ClusterHub,exercise guides,articles(cluster),none,index
+/guides/topic/diet,guide-cluster-hub,ClusterHub,diet guides,articles(cluster),none,index
+/guides/topic/plateau,guide-cluster-hub,ClusterHub,plateau guides,articles(cluster),none,index
+/guides/topic/long-term,guide-cluster-hub,ClusterHub,long term guides,articles(cluster),none,index
+/guides/topic/providers,guide-cluster-hub,ClusterHub,providers guides,articles(cluster),none,index
+/guides/topic/safety,guide-cluster-hub,ClusterHub,safety guides,articles(cluster),none,index
+/guides/topic/special-populations,guide-cluster-hub,ClusterHub,special populations guides,articles(cluster),none,index
+/guides/topic/faqs,guide-cluster-hub,ClusterHub,faqs guides,articles(cluster),none,index

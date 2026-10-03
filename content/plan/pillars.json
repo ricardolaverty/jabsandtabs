@@ -1,0 +1,802 @@
+[
+ {
+  "n": 1,
+  "slug": "mounjaro-uk-complete-guide",
+  "title": "Mounjaro in the UK: The Complete Guide to Tirzepatide for Weight Loss",
+  "cluster": "medications",
+  "hub": "mounjaro",
+  "primaryKeyword": "mounjaro uk"
+ },
+ {
+  "n": 2,
+  "slug": "how-does-mounjaro-work",
+  "title": "How Mounjaro Works: GIP and GLP-1 Explained",
+  "cluster": "medications",
+  "hub": "mounjaro",
+  "primaryKeyword": "how does mounjaro work"
+ },
+ {
+  "n": 3,
+  "slug": "mounjaro-side-effects-guide",
+  "title": "Mounjaro Side Effects: Common, Serious and How They're Managed",
+  "cluster": "side-effects",
+  "hub": "mounjaro",
+  "primaryKeyword": "mounjaro side effects"
+ },
+ {
+  "n": 4,
+  "slug": "mounjaro-dosing-schedule",
+  "title": "Mounjaro Doses Explained: The 2.5mg to 15mg Titration Schedule",
+  "cluster": "dosing",
+  "hub": "mounjaro",
+  "primaryKeyword": "mounjaro doses"
+ },
+ {
+  "n": 5,
+  "slug": "mounjaro-results-timeline",
+  "title": "Mounjaro Results: What the Trials Show Over Time",
+  "cluster": "results",
+  "hub": "mounjaro",
+  "primaryKeyword": "mounjaro results"
+ },
+ {
+  "n": 6,
+  "slug": "mounjaro-price-uk-explained",
+  "title": "Mounjaro Prices in the UK: What Affects the Cost",
+  "cluster": "pricing",
+  "hub": "mounjaro",
+  "primaryKeyword": "mounjaro price uk"
+ },
+ {
+  "n": 7,
+  "slug": "mounjaro-maintenance-guide",
+  "title": "Mounjaro Maintenance: Staying On, Stepping Down and Stopping",
+  "cluster": "maintenance",
+  "hub": "mounjaro",
+  "primaryKeyword": "mounjaro maintenance"
+ },
+ {
+  "n": 8,
+  "slug": "mounjaro-on-the-nhs",
+  "title": "Mounjaro on the NHS: NICE Guidance, Eligibility and the Rollout",
+  "cluster": "eligibility",
+  "hub": "mounjaro",
+  "primaryKeyword": "mounjaro nhs"
+ },
+ {
+  "n": 9,
+  "slug": "mounjaro-kwikpen-how-to-inject",
+  "title": "How to Use the Mounjaro KwikPen",
+  "cluster": "dosing",
+  "hub": "mounjaro",
+  "primaryKeyword": "mounjaro kwikpen"
+ },
+ {
+  "n": 10,
+  "slug": "mounjaro-missed-dose",
+  "title": "Missed a Mounjaro Dose? What the Guidance Says",
+  "cluster": "dosing",
+  "hub": "mounjaro",
+  "primaryKeyword": "mounjaro missed dose"
+ },
+ {
+  "n": 11,
+  "slug": "mounjaro-and-alcohol",
+  "title": "Mounjaro and Alcohol: What You Need to Know",
+  "cluster": "safety",
+  "hub": "mounjaro",
+  "primaryKeyword": "mounjaro and alcohol"
+ },
+ {
+  "n": 12,
+  "slug": "mounjaro-hair-loss",
+  "title": "Mounjaro and Hair Loss: Causes, Evidence and Recovery",
+  "cluster": "side-effects",
+  "hub": "mounjaro",
+  "primaryKeyword": "mounjaro hair loss"
+ },
+ {
+  "n": 13,
+  "slug": "mounjaro-storage-and-travel",
+  "title": "Storing and Travelling with Mounjaro",
+  "cluster": "safety",
+  "hub": "mounjaro",
+  "primaryKeyword": "mounjaro storage"
+ },
+ {
+  "n": 14,
+  "slug": "tirzepatide-uk-guide",
+  "title": "Tirzepatide in the UK: The Science Behind Mounjaro",
+  "cluster": "medications",
+  "hub": "mounjaro",
+  "primaryKeyword": "tirzepatide uk"
+ },
+ {
+  "n": 15,
+  "slug": "wegovy-uk-complete-guide",
+  "title": "Wegovy in the UK: The Complete Guide to Semaglutide for Weight Loss",
+  "cluster": "medications",
+  "hub": "wegovy",
+  "primaryKeyword": "wegovy uk"
+ },
+ {
+  "n": 16,
+  "slug": "how-does-wegovy-work",
+  "title": "How Wegovy Works: Semaglutide and Appetite Explained",
+  "cluster": "medications",
+  "hub": "wegovy",
+  "primaryKeyword": "how does wegovy work"
+ },
+ {
+  "n": 17,
+  "slug": "wegovy-side-effects-guide",
+  "title": "Wegovy Side Effects: Common, Serious and How They're Managed",
+  "cluster": "side-effects",
+  "hub": "wegovy",
+  "primaryKeyword": "wegovy side effects"
+ },
+ {
+  "n": 18,
+  "slug": "wegovy-dosing-schedule",
+  "title": "Wegovy Doses Explained: The 0.25mg to 2.4mg Titration Schedule",
+  "cluster": "dosing",
+  "hub": "wegovy",
+  "primaryKeyword": "wegovy doses"
+ },
+ {
+  "n": 19,
+  "slug": "wegovy-results-timeline",
+  "title": "Wegovy Results: What the STEP Trials Show",
+  "cluster": "results",
+  "hub": "wegovy",
+  "primaryKeyword": "wegovy results"
+ },
+ {
+  "n": 20,
+  "slug": "wegovy-price-uk-explained",
+  "title": "Wegovy Prices in the UK: What Affects the Cost",
+  "cluster": "pricing",
+  "hub": "wegovy",
+  "primaryKeyword": "wegovy price"
+ },
+ {
+  "n": 21,
+  "slug": "wegovy-maintenance-and-stopping",
+  "title": "Wegovy Maintenance: What Happens Long Term and When You Stop",
+  "cluster": "maintenance",
+  "hub": "wegovy",
+  "primaryKeyword": "wegovy maintenance"
+ },
+ {
+  "n": 22,
+  "slug": "wegovy-on-the-nhs",
+  "title": "Wegovy on the NHS: NICE TA875, Specialist Services and Access",
+  "cluster": "eligibility",
+  "hub": "wegovy",
+  "primaryKeyword": "wegovy nhs"
+ },
+ {
+  "n": 23,
+  "slug": "wegovy-pen-how-to-inject",
+  "title": "How to Use the Wegovy FlexTouch Pen",
+  "cluster": "dosing",
+  "hub": "wegovy",
+  "primaryKeyword": "wegovy pen"
+ },
+ {
+  "n": 24,
+  "slug": "wegovy-heart-health-select-trial",
+  "title": "Wegovy and Heart Health: What the SELECT Trial Found",
+  "cluster": "results",
+  "hub": "wegovy",
+  "primaryKeyword": "wegovy heart"
+ },
+ {
+  "n": 25,
+  "slug": "semaglutide-uk-guide",
+  "title": "Semaglutide in the UK: Wegovy, Ozempic and Rybelsus Explained",
+  "cluster": "medications",
+  "hub": "wegovy",
+  "primaryKeyword": "semaglutide uk"
+ },
+ {
+  "n": 26,
+  "slug": "ozempic-vs-wegovy",
+  "title": "Ozempic vs Wegovy: Same Molecule, Different Licence",
+  "cluster": "comparisons",
+  "hub": "wegovy",
+  "primaryKeyword": "ozempic vs wegovy"
+ },
+ {
+  "n": 27,
+  "slug": "oral-glp1-uk-guide",
+  "title": "Oral GLP-1 Medications in the UK: The Complete Guide",
+  "cluster": "medications",
+  "hub": "oral-glp1",
+  "primaryKeyword": "oral glp1"
+ },
+ {
+  "n": 28,
+  "slug": "weight-loss-tablets-uk",
+  "title": "Weight Loss Tablets in the UK: What's Licensed and What the Evidence Says",
+  "cluster": "medications",
+  "hub": "oral-glp1",
+  "primaryKeyword": "weight loss tablets uk"
+ },
+ {
+  "n": 29,
+  "slug": "oral-semaglutide-guide",
+  "title": "Oral Semaglutide: How the Wegovy Tablet Works",
+  "cluster": "medications",
+  "hub": "oral-glp1",
+  "primaryKeyword": "oral semaglutide"
+ },
+ {
+  "n": 30,
+  "slug": "foundayo-orforglipron-guide",
+  "title": "Foundayo (Orforglipron): The Small-Molecule GLP-1 Tablet Explained",
+  "cluster": "medications",
+  "hub": "oral-glp1",
+  "primaryKeyword": "foundayo"
+ },
+ {
+  "n": 31,
+  "slug": "oral-vs-injectable-glp1",
+  "title": "Tablets vs Injections: Oral and Injectable GLP-1s Compared",
+  "cluster": "comparisons",
+  "hub": "oral-glp1",
+  "primaryKeyword": "oral vs injectable glp1"
+ },
+ {
+  "n": 32,
+  "slug": "rybelsus-and-weight-loss",
+  "title": "Rybelsus and Weight Loss: Why It's Licensed for Diabetes, Not Obesity",
+  "cluster": "medications",
+  "hub": "oral-glp1",
+  "primaryKeyword": "rybelsus weight loss"
+ },
+ {
+  "n": 33,
+  "slug": "orlistat-vs-glp1",
+  "title": "Orlistat vs GLP-1 Medications: How They Compare",
+  "cluster": "comparisons",
+  "hub": "oral-glp1",
+  "primaryKeyword": "orlistat vs mounjaro"
+ },
+ {
+  "n": 34,
+  "slug": "oral-glp1-side-effects",
+  "title": "Oral GLP-1 Side Effects: What to Expect from Tablet Treatment",
+  "cluster": "side-effects",
+  "hub": "oral-glp1",
+  "primaryKeyword": "oral glp1 side effects"
+ },
+ {
+  "n": 35,
+  "slug": "glp1-pipeline-future-treatments",
+  "title": "The GLP-1 Pipeline: Retatrutide, CagriSema, Amycretin and What Comes Next",
+  "cluster": "medications",
+  "hub": "general",
+  "primaryKeyword": "new weight loss drugs"
+ },
+ {
+  "n": 36,
+  "slug": "mounjaro-vs-wegovy",
+  "title": "Mounjaro vs Wegovy: An Evidence-Based Comparison",
+  "cluster": "comparisons",
+  "hub": "mounjaro",
+  "primaryKeyword": "mounjaro vs wegovy"
+ },
+ {
+  "n": 37,
+  "slug": "mounjaro-vs-oral-glp1",
+  "title": "Mounjaro vs Oral GLP-1 Tablets",
+  "cluster": "comparisons",
+  "hub": "mounjaro",
+  "primaryKeyword": "mounjaro vs tablets"
+ },
+ {
+  "n": 38,
+  "slug": "wegovy-vs-oral-glp1",
+  "title": "Wegovy Injections vs Oral GLP-1 Tablets",
+  "cluster": "comparisons",
+  "hub": "wegovy",
+  "primaryKeyword": "wegovy injection vs tablet"
+ },
+ {
+  "n": 39,
+  "slug": "surmount-5-tirzepatide-vs-semaglutide",
+  "title": "SURMOUNT-5: The Head-to-Head Trial of Tirzepatide vs Semaglutide",
+  "cluster": "comparisons",
+  "hub": "general",
+  "primaryKeyword": "tirzepatide vs semaglutide"
+ },
+ {
+  "n": 40,
+  "slug": "saxenda-vs-newer-glp1s",
+  "title": "Saxenda (Liraglutide) vs Newer GLP-1 Medications",
+  "cluster": "comparisons",
+  "hub": "injections",
+  "primaryKeyword": "saxenda vs wegovy"
+ },
+ {
+  "n": 41,
+  "slug": "weight-loss-injections-compared",
+  "title": "Every UK Weight Loss Injection Compared",
+  "cluster": "comparisons",
+  "hub": "injections",
+  "primaryKeyword": "best weight loss injection uk"
+ },
+ {
+  "n": 42,
+  "slug": "glp1-vs-bariatric-surgery",
+  "title": "GLP-1 Medication vs Bariatric Surgery",
+  "cluster": "comparisons",
+  "hub": "general",
+  "primaryKeyword": "weight loss injections vs surgery"
+ },
+ {
+  "n": 43,
+  "slug": "how-weight-loss-injection-pricing-works",
+  "title": "How Weight Loss Injection Pricing Works in the UK",
+  "cluster": "pricing",
+  "hub": "injections",
+  "primaryKeyword": "cheapest mounjaro uk"
+ },
+ {
+  "n": 44,
+  "slug": "weight-loss-treatment-hidden-costs",
+  "title": "The Hidden Costs of Private Weight Loss Treatment",
+  "cluster": "pricing",
+  "hub": "general",
+  "primaryKeyword": "weight loss injection cost"
+ },
+ {
+  "n": 45,
+  "slug": "mounjaro-price-rise-2025",
+  "title": "The 2025 Mounjaro Price Rise: What Happened and What It Means",
+  "cluster": "pricing",
+  "hub": "mounjaro",
+  "primaryKeyword": "mounjaro price increase"
+ },
+ {
+  "n": 46,
+  "slug": "private-vs-nhs-weight-loss-treatment",
+  "title": "Private vs NHS Weight Loss Treatment",
+  "cluster": "pricing",
+  "hub": "general",
+  "primaryKeyword": "private weight loss injections"
+ },
+ {
+  "n": 47,
+  "slug": "long-term-cost-of-glp1-treatment",
+  "title": "The Long-Term Cost of GLP-1 Treatment",
+  "cluster": "pricing",
+  "hub": "general",
+  "primaryKeyword": "glp1 cost uk"
+ },
+ {
+  "n": 48,
+  "slug": "who-can-get-weight-loss-injections",
+  "title": "Who Can Get Weight Loss Injections in the UK?",
+  "cluster": "eligibility",
+  "hub": "general",
+  "primaryKeyword": "weight loss injections eligibility"
+ },
+ {
+  "n": 49,
+  "slug": "bmi-and-treatment-eligibility",
+  "title": "BMI Explained: How It Decides Treatment Eligibility",
+  "cluster": "eligibility",
+  "hub": "general",
+  "primaryKeyword": "bmi for weight loss injections"
+ },
+ {
+  "n": 50,
+  "slug": "bmi-thresholds-ethnicity",
+  "title": "Lower BMI Thresholds for South Asian, Chinese, Black African and Caribbean People",
+  "cluster": "eligibility",
+  "hub": "general",
+  "primaryKeyword": "bmi ethnicity weight loss injections"
+ },
+ {
+  "n": 51,
+  "slug": "who-should-not-take-glp1s",
+  "title": "Who Shouldn't Take GLP-1 Medications? Contraindications Explained",
+  "cluster": "safety",
+  "hub": "general",
+  "primaryKeyword": "who cannot take mounjaro"
+ },
+ {
+  "n": 52,
+  "slug": "online-weight-loss-consultation",
+  "title": "The Online Weight Loss Consultation: What Prescribers Ask and Why",
+  "cluster": "eligibility",
+  "hub": "general",
+  "primaryKeyword": "online weight loss consultation"
+ },
+ {
+  "n": 53,
+  "slug": "id-and-weight-verification",
+  "title": "Why Online Pharmacies Verify Your ID and Weight",
+  "cluster": "eligibility",
+  "hub": "general",
+  "primaryKeyword": "weight verification online pharmacy"
+ },
+ {
+  "n": 54,
+  "slug": "how-to-choose-online-pharmacy-weight-loss",
+  "title": "How to Choose an Online Pharmacy for Weight Loss Treatment",
+  "cluster": "providers",
+  "hub": "general",
+  "primaryKeyword": "online pharmacy weight loss"
+ },
+ {
+  "n": 55,
+  "slug": "getting-weight-loss-injections-online-safely",
+  "title": "Getting Weight Loss Injections Online Safely",
+  "cluster": "safety",
+  "hub": "general",
+  "primaryKeyword": "buy mounjaro online safely"
+ },
+ {
+  "n": 56,
+  "slug": "fake-weight-loss-jabs",
+  "title": "Fake and Unlicensed Weight Loss Jabs: How to Spot Them",
+  "cluster": "safety",
+  "hub": "general",
+  "primaryKeyword": "fake mounjaro"
+ },
+ {
+  "n": 57,
+  "slug": "online-doctor-weight-loss-uk",
+  "title": "Online Doctor Weight Loss Services in the UK Explained",
+  "cluster": "providers",
+  "hub": "general",
+  "primaryKeyword": "online doctor weight loss"
+ },
+ {
+  "n": 58,
+  "slug": "weight-loss-clinics-vs-online-providers",
+  "title": "Weight Loss Clinics vs Online Providers",
+  "cluster": "providers",
+  "hub": "general",
+  "primaryKeyword": "weight loss clinic uk"
+ },
+ {
+  "n": 59,
+  "slug": "who-regulates-online-weight-loss-services",
+  "title": "GPhC, CQC and MHRA: Who Regulates Online Weight Loss Services?",
+  "cluster": "providers",
+  "hub": "general",
+  "primaryKeyword": "online pharmacy regulation uk"
+ },
+ {
+  "n": 60,
+  "slug": "switching-wegovy-to-mounjaro",
+  "title": "Switching from Wegovy to Mounjaro",
+  "cluster": "switching",
+  "hub": "mounjaro",
+  "primaryKeyword": "switching wegovy to mounjaro"
+ },
+ {
+  "n": 61,
+  "slug": "switching-mounjaro-to-wegovy",
+  "title": "Switching from Mounjaro to Wegovy",
+  "cluster": "switching",
+  "hub": "wegovy",
+  "primaryKeyword": "switching mounjaro to wegovy"
+ },
+ {
+  "n": 62,
+  "slug": "switching-providers-mid-treatment",
+  "title": "Switching Providers Mid-Treatment: What You Need to Know",
+  "cluster": "switching",
+  "hub": "general",
+  "primaryKeyword": "switch mounjaro provider"
+ },
+ {
+  "n": 63,
+  "slug": "switching-injection-to-tablet",
+  "title": "Switching from an Injection to a GLP-1 Tablet",
+  "cluster": "switching",
+  "hub": "oral-glp1",
+  "primaryKeyword": "switch from injection to tablet"
+ },
+ {
+  "n": 64,
+  "slug": "weight-loss-plateau-glp1",
+  "title": "Weight Loss Plateaus on GLP-1 Medication",
+  "cluster": "plateau",
+  "hub": "general",
+  "primaryKeyword": "mounjaro plateau"
+ },
+ {
+  "n": 65,
+  "slug": "glp1-non-responders",
+  "title": "What If GLP-1 Treatment Doesn't Work for You?",
+  "cluster": "plateau",
+  "hub": "general",
+  "primaryKeyword": "mounjaro not working"
+ },
+ {
+  "n": 66,
+  "slug": "weight-regain-after-stopping-glp1",
+  "title": "Weight Regain After Stopping GLP-1 Medication",
+  "cluster": "long-term",
+  "hub": "general",
+  "primaryKeyword": "weight regain after mounjaro"
+ },
+ {
+  "n": 67,
+  "slug": "long-term-glp1-use",
+  "title": "Long-Term GLP-1 Use: What the Evidence Shows",
+  "cluster": "long-term",
+  "hub": "general",
+  "primaryKeyword": "long term mounjaro use"
+ },
+ {
+  "n": 68,
+  "slug": "realistic-weight-loss-expectations",
+  "title": "Realistic Weight Loss Expectations on GLP-1 Treatment",
+  "cluster": "results",
+  "hub": "general",
+  "primaryKeyword": "how much weight can you lose on mounjaro"
+ },
+ {
+  "n": 69,
+  "slug": "measuring-progress-beyond-the-scales",
+  "title": "Measuring Progress Beyond the Scales",
+  "cluster": "results",
+  "hub": "general",
+  "primaryKeyword": "measuring weight loss progress"
+ },
+ {
+  "n": 70,
+  "slug": "what-to-eat-on-glp1",
+  "title": "What to Eat on GLP-1 Medication",
+  "cluster": "diet",
+  "hub": "general",
+  "primaryKeyword": "diet on mounjaro"
+ },
+ {
+  "n": 71,
+  "slug": "protein-on-glp1",
+  "title": "Protein Intake on Weight Loss Injections",
+  "cluster": "diet",
+  "hub": "general",
+  "primaryKeyword": "protein on mounjaro"
+ },
+ {
+  "n": 72,
+  "slug": "foods-that-worsen-glp1-side-effects",
+  "title": "Foods That Can Worsen GLP-1 Side Effects",
+  "cluster": "diet",
+  "hub": "general",
+  "primaryKeyword": "foods to avoid on mounjaro"
+ },
+ {
+  "n": 73,
+  "slug": "glp1-meal-plan",
+  "title": "A Sample Week of Eating on GLP-1 Treatment",
+  "cluster": "diet",
+  "hub": "general",
+  "primaryKeyword": "mounjaro meal plan"
+ },
+ {
+  "n": 74,
+  "slug": "hydration-on-glp1",
+  "title": "Hydration on GLP-1 Medication",
+  "cluster": "diet",
+  "hub": "general",
+  "primaryKeyword": "mounjaro dehydration"
+ },
+ {
+  "n": 75,
+  "slug": "vitamins-and-supplements-on-glp1",
+  "title": "Vitamins and Supplements on GLP-1 Treatment",
+  "cluster": "diet",
+  "hub": "general",
+  "primaryKeyword": "vitamins on mounjaro"
+ },
+ {
+  "n": 76,
+  "slug": "exercise-on-glp1",
+  "title": "Exercise on GLP-1 Medication: A Practical Guide",
+  "cluster": "exercise",
+  "hub": "general",
+  "primaryKeyword": "exercise on mounjaro"
+ },
+ {
+  "n": 77,
+  "slug": "preserving-muscle-on-glp1",
+  "title": "Preserving Muscle Mass on GLP-1 Treatment",
+  "cluster": "exercise",
+  "hub": "general",
+  "primaryKeyword": "muscle loss mounjaro"
+ },
+ {
+  "n": 78,
+  "slug": "strength-training-for-beginners-on-glp1",
+  "title": "Strength Training for Beginners on Weight Loss Medication",
+  "cluster": "exercise",
+  "hub": "general",
+  "primaryKeyword": "strength training weight loss injections"
+ },
+ {
+  "n": 79,
+  "slug": "nausea-on-glp1",
+  "title": "Managing Nausea on GLP-1 Medication",
+  "cluster": "side-effects",
+  "hub": "general",
+  "primaryKeyword": "mounjaro nausea"
+ },
+ {
+  "n": 80,
+  "slug": "constipation-on-glp1",
+  "title": "Constipation on GLP-1 Medication",
+  "cluster": "side-effects",
+  "hub": "general",
+  "primaryKeyword": "mounjaro constipation"
+ },
+ {
+  "n": 81,
+  "slug": "diarrhoea-on-glp1",
+  "title": "Diarrhoea on GLP-1 Medication",
+  "cluster": "side-effects",
+  "hub": "general",
+  "primaryKeyword": "mounjaro diarrhoea"
+ },
+ {
+  "n": 82,
+  "slug": "glp1-pancreatitis-risk",
+  "title": "GLP-1 Medication and Pancreatitis: Understanding the Risk",
+  "cluster": "side-effects",
+  "hub": "general",
+  "primaryKeyword": "mounjaro pancreatitis"
+ },
+ {
+  "n": 83,
+  "slug": "glp1-gallbladder-problems",
+  "title": "GLP-1 Medication and Gallbladder Problems",
+  "cluster": "side-effects",
+  "hub": "general",
+  "primaryKeyword": "mounjaro gallbladder"
+ },
+ {
+  "n": 84,
+  "slug": "glp1-and-mental-health",
+  "title": "GLP-1 Medication and Mental Health",
+  "cluster": "safety",
+  "hub": "general",
+  "primaryKeyword": "mounjaro mental health"
+ },
+ {
+  "n": 85,
+  "slug": "facial-changes-and-loose-skin",
+  "title": "Facial Changes and Loose Skin After GLP-1 Weight Loss",
+  "cluster": "side-effects",
+  "hub": "general",
+  "primaryKeyword": "ozempic face"
+ },
+ {
+  "n": 86,
+  "slug": "reflux-burping-and-indigestion-on-glp1",
+  "title": "Burping, Reflux and Indigestion on GLP-1 Medication",
+  "cluster": "side-effects",
+  "hub": "general",
+  "primaryKeyword": "mounjaro sulphur burps"
+ },
+ {
+  "n": 87,
+  "slug": "glp1-and-contraception",
+  "title": "Mounjaro, GLP-1s and Contraception",
+  "cluster": "special-populations",
+  "hub": "mounjaro",
+  "primaryKeyword": "mounjaro contraceptive pill"
+ },
+ {
+  "n": 88,
+  "slug": "glp1-pregnancy-and-fertility",
+  "title": "GLP-1 Medication, Pregnancy and Fertility",
+  "cluster": "special-populations",
+  "hub": "general",
+  "primaryKeyword": "mounjaro pregnancy"
+ },
+ {
+  "n": 89,
+  "slug": "glp1-and-type-2-diabetes",
+  "title": "GLP-1 Medication and Type 2 Diabetes",
+  "cluster": "special-populations",
+  "hub": "general",
+  "primaryKeyword": "glp1 type 2 diabetes"
+ },
+ {
+  "n": 90,
+  "slug": "glp1-and-pcos",
+  "title": "GLP-1 Medication and PCOS",
+  "cluster": "special-populations",
+  "hub": "general",
+  "primaryKeyword": "mounjaro pcos"
+ },
+ {
+  "n": 91,
+  "slug": "glp1-over-65",
+  "title": "GLP-1 Medication for People Over 65",
+  "cluster": "special-populations",
+  "hub": "general",
+  "primaryKeyword": "weight loss injections over 65"
+ },
+ {
+  "n": 92,
+  "slug": "glp1-surgery-and-anaesthesia",
+  "title": "GLP-1 Medication Before Surgery and Anaesthesia",
+  "cluster": "safety",
+  "hub": "general",
+  "primaryKeyword": "mounjaro before surgery"
+ },
+ {
+  "n": 93,
+  "slug": "glp1-medication-interactions",
+  "title": "GLP-1 Medication Interactions",
+  "cluster": "safety",
+  "hub": "general",
+  "primaryKeyword": "mounjaro interactions"
+ },
+ {
+  "n": 94,
+  "slug": "tirzepatide-and-sleep-apnoea",
+  "title": "Tirzepatide and Obstructive Sleep Apnoea",
+  "cluster": "special-populations",
+  "hub": "mounjaro",
+  "primaryKeyword": "mounjaro sleep apnoea"
+ },
+ {
+  "n": 95,
+  "slug": "glp1-and-menopause",
+  "title": "GLP-1 Medication and the Menopause",
+  "cluster": "special-populations",
+  "hub": "general",
+  "primaryKeyword": "mounjaro menopause"
+ },
+ {
+  "n": 96,
+  "slug": "obesity-as-a-chronic-disease",
+  "title": "Obesity as a Chronic Disease: Why Medication Has a Role",
+  "cluster": "long-term",
+  "hub": "general",
+  "primaryKeyword": "obesity treatment uk"
+ },
+ {
+  "n": 97,
+  "slug": "what-are-glp1-medications",
+  "title": "What Are GLP-1 Medications? A Plain-English Guide",
+  "cluster": "medications",
+  "hub": "general",
+  "primaryKeyword": "what is glp1"
+ },
+ {
+  "n": 98,
+  "slug": "weight-loss-medication-uk-overview",
+  "title": "Every Weight Loss Medication Available in the UK",
+  "cluster": "medications",
+  "hub": "general",
+  "primaryKeyword": "weight loss medication uk"
+ },
+ {
+  "n": 99,
+  "slug": "glp1-myths-and-facts",
+  "title": "GLP-1 Myths and Facts",
+  "cluster": "faqs",
+  "hub": "general",
+  "primaryKeyword": "glp1 myths"
+ },
+ {
+  "n": 100,
+  "slug": "glp1-questions-answered",
+  "title": "GLP-1 Medications: 50 Common Questions Answered",
+  "cluster": "faqs",
+  "hub": "general",
+  "primaryKeyword": "glp1 uk"
+ }
+]
