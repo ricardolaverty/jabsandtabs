@@ -127,6 +127,15 @@ export function showUnreviewed(): boolean {
   return flags.showUnreviewedContent || process.env.NODE_ENV !== "production";
 }
 
+/**
+ * Whether an article may be indexed by search engines. Reviewed articles always
+ * can; unreviewed ones only when FLAG_SHOW_UNREVIEWED_CONTENT is explicitly on
+ * (dev builds show them but keep them noindexed).
+ */
+export function isIndexableArticle(fm: Pick<ArticleFrontmatter, "reviewStatus">): boolean {
+  return fm.reviewStatus === "clinically-reviewed" || flags.showUnreviewedContent;
+}
+
 /** Extracts h2/h3 headings from markdown, matching rehype-slug's ids. */
 export function extractToc(body: string): TocItem[] {
   const slugger = new GithubSlugger();

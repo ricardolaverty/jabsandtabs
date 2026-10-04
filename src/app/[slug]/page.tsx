@@ -3,7 +3,7 @@ import { fullName } from "@/lib/medication-content";
 import { notFound } from "next/navigation";
 import { getTopLevelSlugs, resolveTopLevel, isMedicationUnverified, CLASS_HUBS, type TopLevelPage } from "@/lib/routes";
 import { buildMetadata, clampDescription } from "@/lib/seo";
-import { getMountedArticle } from "@/lib/content";
+import { getMountedArticle, isIndexableArticle } from "@/lib/content";
 import { MedicationHubTemplate } from "@/components/medication/medication-hub";
 import { ClassHubTemplate } from "@/components/medication/class-hub";
 import { MedicationTopicTemplate, topicTitle, topicDescription } from "@/components/medication/medication-topic";
@@ -84,7 +84,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       publishedTime: fm.publishedAt,
       modifiedTime: fm.updatedAt,
       keywords: [fm.primaryKeyword, ...fm.secondaryKeywords],
-      index: d.index && fm.reviewStatus === "clinically-reviewed",
+      index: d.index && isIndexableArticle(fm),
     });
   }
   return buildMetadata({ title: d.title, description: clampDescription(d.description), path: `/${page.slug}`, index: d.index });

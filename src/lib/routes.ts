@@ -9,7 +9,7 @@ import {
   getSideEffectsForMedication,
   getAuthors,
 } from "@/lib/repo";
-import { CONTENT_CLUSTERS, getActiveClusters, getGuideRouteArticles, getMountedArticle } from "@/lib/content";
+import { CONTENT_CLUSTERS, getActiveClusters, getGuideRouteArticles, getMountedArticle, isIndexableArticle } from "@/lib/content";
 import { topicSlug, doseSlug, comparisonSlug } from "@/lib/route-hrefs";
 
 export * from "@/lib/route-hrefs";
@@ -270,7 +270,7 @@ export async function getAllRoutes(): Promise<RouteEntry[]> {
     push({
       path: `/${slug}`,
       kind: page.kind,
-      indexable: !unverified && (!mounted || mounted.frontmatter.reviewStatus === "clinically-reviewed"),
+      indexable: !unverified && (!mounted || isIndexableArticle(mounted.frontmatter)),
       lastModified: mounted?.frontmatter.updatedAt,
       priority: page.kind === "medication-hub" || page.kind === "class-hub" ? 0.9 : 0.7,
       changeFrequency: "weekly",
@@ -324,7 +324,7 @@ export async function getAllRoutes(): Promise<RouteEntry[]> {
     push({
       path: `/guides/${a.frontmatter.slug}`,
       kind: "guide",
-      indexable: a.frontmatter.reviewStatus === "clinically-reviewed",
+      indexable: isIndexableArticle(a.frontmatter),
       lastModified: a.frontmatter.updatedAt,
       priority: 0.7,
       changeFrequency: "monthly",

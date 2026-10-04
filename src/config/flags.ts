@@ -29,7 +29,11 @@ export const flags = {
   discountCodes: flag("FLAG_DISCOUNT_CODES"),
   /** Sticky mobile CTA bar on commercial pages. */
   stickyCta: flag("FLAG_STICKY_CTA"),
-  /** Show articles whose reviewStatus is not "clinically-reviewed". Never enable in production. */
+  /**
+   * Show AND index articles whose reviewStatus is not "clinically-reviewed".
+   * Enabled on jabsandtabs.com for the SEO experiment; the "Pending clinical
+   * review" badge and disclaimers remain visible on every such article.
+   */
   showUnreviewedContent: flag("FLAG_SHOW_UNREVIEWED_CONTENT"),
 } as const;
 

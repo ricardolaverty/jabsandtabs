@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound, permanentRedirect } from "next/navigation";
 import { ArticleView } from "@/components/content/article-view";
-import { getArticle, getGuideRouteArticles } from "@/lib/content";
+import { getArticle, getGuideRouteArticles, isIndexableArticle } from "@/lib/content";
 import { buildMetadata } from "@/lib/seo";
 
 export const dynamicParams = false;
@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     modifiedTime: fm.updatedAt,
     keywords: [fm.primaryKeyword, ...fm.secondaryKeywords],
     // Only clinically reviewed articles are indexed.
-    index: fm.reviewStatus === "clinically-reviewed",
+    index: isIndexableArticle(fm),
   });
 }
 
